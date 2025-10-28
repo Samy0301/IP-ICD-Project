@@ -2,9 +2,21 @@
     {
         "name": "VER PARA CREER S.U.R.L",
         "address" : "98 #712 E/ 7MA A Y 9NA, CP 11300, AMPLIACION DE ALMENDARES, PLAYA",
-        "latitude" : "",
-        "length" : "",
-        "evidence" : ""
+        "latitude" : "58468453168",
+        "length" : "84763135684",
+        "evidence": "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
     },
 
     {
@@ -12,7 +24,19 @@
         "address" : "11 #4213 E/ 44 Y 42, CP 11300, AMPLIACION DE ALMENDARES, PLAYA",
         "latitude" : "",
         "length" : "",
-        "evidence" : ""
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
     },
 
     {
@@ -20,7 +44,19 @@
         "address" : "78 #913, APTO. ALTOS,  E/ 9NA Y 11, CP 11600, AMPLIACION DE ALMENDARES, PLAYA",
         "latitude" : "",
         "length" : "",
-        "evidence" : ""
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
     },
 
     {
@@ -28,7 +64,19 @@
         "address" : "7MA #6601 E/ 7MA Y 66, CP 11300, AMPLIACION DE ALMENDARES, PLAYA",
         "latitude" : "",
         "length" : "",
-        "evidence" : ""
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
     },
 
     {
@@ -36,7 +84,19 @@
         "address" : "17 #6206 E/ 64 Y 62, CP 11600, AMPLIACION DE ALMENDARES, PLAYA",
         "latitude" : "",
         "length" : "",
-        "evidence" : ""
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
     },
 
     {
@@ -44,7 +104,19 @@
         "address" : "17 #4629 E/ 46 Y 48, CP 11600, AMPLIACION DE ALMENDARES, PLAYA",
         "latitude" : "",
         "length" : "",
-        "evidence" : ""
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
     },
 
     {
@@ -52,7 +124,19 @@
         "address" : "7MA B #6612, APTO. 3,  E/ 66 Y 70, CP 11300, AMPLIACION DE ALMENDARES, PLAYA",
         "latitude" : "",
         "length" : "",
-        "evidence" : ""
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
     },
 
     {
@@ -60,7 +144,19 @@
         "address" : "26 #3501, APTO. ALTOS,  E/ 35 Y 37, CP 11300, SIERRA, PLAYA",
         "latitude" : "",
         "length" : "",
-        "evidence" : ""
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
     },
 
     {
@@ -68,7 +164,19 @@
         "address" : "35 #3611 E/ 36 Y 42, CP 11300, SIERRA, PLAYA",
         "latitude" : "",
         "length" : "",
-        "evidence" : ""
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
     },
 
     {
@@ -76,7 +184,19 @@
         "address" : "29 #3410 E/ 34 Y 36, CP 11300, SIERRA, PLAYA",
         "latitude" : "",
         "length" : "",
-        "evidence" : ""
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
     },
 
     {
@@ -84,7 +204,19 @@
         "address" : "27 #3002 E/ 30 Y 34, CP 11300, SIERRA, PLAYA",
         "latitude" : "",
         "length" : "",
-        "evidence" : ""
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
     },
 
     {
@@ -92,7 +224,19 @@
         "address" : "33 #3416 E/ 34 Y 36 CP 11300, SIERRA, PLAYA",
         "latitude" : "",
         "length" : "",
-        "evidence" : ""
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
     },
 
     { 
@@ -100,7 +244,19 @@
         "address" : "1RA #29214, APTO. ALTOS,  E/ 292 Y 294, CP 11300, SANTA FE, PLAYA",
         "length" : "",
         "latitude" : "",
-        "evidence" : ""
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
     },
 
     { 
@@ -108,7 +264,19 @@
         "address" : "11A #28419 E/ 7MA Y 284, CP 19100, SANTA FE, PLAYA",
         "length" : "",
         "latitude" : "",
-        "evidence" : ""
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
         },
 
     { 
@@ -116,7 +284,19 @@
         "address" : "1RA #30613 B E/ 306 Y 308, CP 19100, SANTA FE, PLAYA",
         "length" : "",
         "latitude" : "",
-        "evidence" : ""
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
         },
 
     { 
@@ -124,7 +304,19 @@
         "address" : "256 #503 E/ 5TA Y 5TA A, CP 19100, SANTA FE, PLAYA",
         "length" : "",
         "latitude" : "",
-        "evidence" : ""
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
         },
 
     { 
@@ -132,7 +324,19 @@
         "address" : "1RA B #15404, APTO. 3,  E/ 154 Y 158, CP 11300, SANTA FE, PLAYA",
         "length" : "",
         "latitude" : "",
-        "evidence" : ""
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
         },
 
     { 
@@ -140,7 +344,19 @@
         "address" : "1RA #29801 E/ 298 Y 300, CP 19100, SANTA FE, PLAYA",
         "length" : "",
         "latitude" : "",
-        "evidence" : ""
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
         },
 
     { 
@@ -148,7 +364,19 @@
         "address" : "156 #326 E/ 3RA B Y 3RA D, CP 11600, SANTA FE, PLAYA",
         "length" : "",
         "latitude" : "",
-        "evidence" : ""
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
         },
 
     { 
@@ -156,7 +384,19 @@
         "address" : "226 #307 E/ 3RA Y 3RA A, CP 12200, SANTA FE, PLAYA",
         "length" : "",
         "latitude" : "",
-        "evidence" : ""
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
         },
 
     { 
@@ -164,7 +404,19 @@
         "address" : "36 A #EDIF 121, APTO. 5,  E/ 1RA Y 3RA, CP 11300, MIRAMAR, PLAYA",
         "length" : "",
         "latitude" : "",
-        "evidence" : ""
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
         },
 
     { 
@@ -172,7 +424,19 @@
         "address" : "36 #EDIF 115, APTO. 4,  E/ 3RA Y 1RA, CP 11300, MIRAMAR, PLAYA",
         "length" : "",
         "latitude" : "",
-        "evidence" : ""
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
         },
 
     { 
@@ -180,7 +444,19 @@
         "address" : "1RA #2206 E/ 22 Y 24, CP 11300, MIRAMAR, PLAYA",
         "length" : "",
         "latitude" : "",
-        "evidence" : ""
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
         },
 
     { 
@@ -188,7 +464,19 @@
         "address" : "16 #116, APTO. 1,  E/ 1RA Y 3RA, CP 11300, MIRAMAR, PLAYA",
         "length" : "",
         "latitude" : "",
-        "evidence" : ""
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
         },
 
     { 
@@ -196,7 +484,19 @@
         "address" : "14 #104 E/ 1RA Y 3RA, CP 11300, MIRAMAR, PLAYA",
         "length" : "",
         "latitude" : "",
-        "evidence" : ""
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
         },
 
         { 
@@ -204,7 +504,19 @@
         "address" : "5TA B #806, APTO. 1,  E/ 8 Y 10, CP 11300, MIRAMAR, PLAYA",
         "length" : "",
         "latitude" : "",
-        "evidence" : ""
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
         },
 
     { 
@@ -212,7 +524,19 @@
         "address" : "#117 E/ 1RA Y 3RA CP 11300, MIRAMAR, PLAYA",
         "length" : "",
         "latitude" : "",
-        "evidence" : ""
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
         },
 
     { 
@@ -220,7 +544,19 @@
         "address" : "1A #4214, APTO. 1-A BAJOS,  E/ 42 Y 44, CP 11300, MIRAMAR, PLAYA",
         "length" : "",
         "latitude" : "",
-        "evidence" : ""
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
         },
 
     { 
@@ -228,7 +564,19 @@
         "address" : "24 #303 E/ 3RA Y 5TA, CP 11300, MIRAMAR, PLAYA",
         "length" : "",
         "latitude" : "",
-        "evidence" : ""
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
         },
 
     { 
@@ -236,8 +584,20 @@
         "address" : "14 #509 E/ 5TA Y 7MA, CP 11300, MIRAMAR, PLAYA",
         "length" : "",
         "latitude" : "",
-        "evidence" : ""
-            }
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
+        }
 
 
 ]

@@ -6,16 +6,16 @@
         "length" : "84763135684",
         "evidence": "",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "1": 87,
+            "2": 648,
+            "3": 485,
+            "4": 548,
+            "5": 843,
+            "6": 846,
+            "7": 87631,
+            "8": 854,
+            "9": 8465,
+            "10": 685364
         }
     },
 
@@ -26,136 +26,16 @@
         "length" : "",
         "evidence" : "",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
-        }
-    },
-
-    {
-        "name": "CALIDADE S.U.R.L.",
-        "address" : "78 #913, APTO. ALTOS,  E/ 9NA Y 11, CP 11600, AMPLIACION DE ALMENDARES, PLAYA",
-        "latitude" : "",
-        "length" : "",
-        "evidence" : "",
-        "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
-        }
-    },
-
-    {
-        "name": "GALIPA S.U.R.L.",
-        "address" : "7MA #6601 E/ 7MA Y 66, CP 11300, AMPLIACION DE ALMENDARES, PLAYA",
-        "latitude" : "",
-        "length" : "",
-        "evidence" : "",
-        "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
-        }
-    },
-
-    {
-        "name": "GUAREIRA S.R.L.",
-        "address" : "17 #6206 E/ 64 Y 62, CP 11600, AMPLIACION DE ALMENDARES, PLAYA",
-        "latitude" : "",
-        "length" : "",
-        "evidence" : "",
-        "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
-        }
-    },
-
-    {
-        "name": "SINAG S.U.R.L.",
-        "address" : "17 #4629 E/ 46 Y 48, CP 11600, AMPLIACION DE ALMENDARES, PLAYA",
-        "latitude" : "",
-        "length" : "",
-        "evidence" : "",
-        "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
-        }
-    },
-
-    {
-        "name": "GASTRO CUBA S.U.R.L.",
-        "address" : "7MA B #6612, APTO. 3,  E/ 66 Y 70, CP 11300, AMPLIACION DE ALMENDARES, PLAYA",
-        "latitude" : "",
-        "length" : "",
-        "evidence" : "",
-        "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
-        }
-    },
-
-    {
-        "name": "ALELIS KFE S.U.R.L.",
-        "address" : "26 #3501, APTO. ALTOS,  E/ 35 Y 37, CP 11300, SIERRA, PLAYA",
-        "latitude" : "",
-        "length" : "",
-        "evidence" : "",
-        "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "1": 84,
+            "2": 845,
+            "3": 845,
+            "4": 34,
+            "5": 54,
+            "6": 84516,
+            "7": 541,
+            "8": 874,
+            "9": 534,
+            "10": 648
         }
     }
 ]

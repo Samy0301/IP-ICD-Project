@@ -7,6 +7,10 @@ def promedio(lst_int):
     else:
         return 0
 
-def de_dic_a_lst(dicc):
-    lst = [x for x in dicc.values()]
-    return lst
+def porciento_salario_gastado(parte, total):
+    if parte==total: return 0
+    elif parte>total: 
+        return round((parte*100)/total), "no me da la vidaaaa"
+    else:
+        return round((parte*100)/total)
+    

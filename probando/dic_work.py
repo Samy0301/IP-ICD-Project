@@ -1,72 +1,52 @@
 import json 
 import metodos_pruebas
+from collections import defaultdict
 
-salario_medio = 5922.60 
+
+
+# json de las mypimes
 with open("C:\\Users\\pc\\Desktop\\CD\\repos\\IP-ICD-Project\\probando\\prueba.json", "r", encoding="utf-8") as f:
-    jason=json.load(f)
+    jason = json.load(f)
 
-lst_p1=[]
-lst_p2=[]
-lst_p3=[]
-lst_p4=[]
-lst_p5=[]
-lst_p6=[]
-lst_p7=[]
-lst_p8=[]
-lst_p9=[]
-lst_p10=[]
+dic_precio_productos_off = defaultdict(list) # dic de listas con los precios offline por producto
+
+# desencapsular los precios offline por producto
 for item in jason:
-    lst_p1.append(item["products"]["1"])
-    lst_p2.append(item["products"]["2"])
-    lst_p3.append(item["products"]["3"])
-    lst_p4.append(item["products"]["4"])
-    lst_p5.append(item["products"]["5"])
-    lst_p6.append(item["products"]["6"])
-    lst_p7.append(item["products"]["7"])
-    lst_p8.append(item["products"]["8"])
-    lst_p9.append(item["products"]["9"])
-    lst_p10.append(item["products"]["10"])
+    for key, value in item["products"].items():
+        dic_precio_productos_off[key].append(value)
 
-lst=[lst_p1, lst_p2, lst_p3, lst_p4, lst_p5, lst_p6, lst_p7, lst_p8, lst_p9, lst_p10]
-print(lst)
-lst_promedio_off=[]
-for i in lst:
-    lst_promedio_off.append(metodos_pruebas.promedio(i))
+lst_promedio_off = []   # lista con los promedios de precios de venta de las mypimes por producto
+for value in dic_precio_productos_off.values():
+    lst_promedio_off.append(metodos_pruebas.promedio(value))
 
 
+# json de las tiendas virtuales
 with open("C:\\Users\\pc\\Desktop\\CD\\repos\\IP-ICD-Project\\probando\\prueba_online.json", "r", encoding="utf-8") as f:
     jason1=json.load(f)
 
-l_p1=[]
-l_p2=[]
-l_p3=[]
-l_p4=[]
-l_p5=[]
-l_p6=[]
-l_p7=[]
-l_p8=[]
-l_p9=[]
-l_p10=[]
+dic_precio_productos_on = defaultdict(list) # dic de listas con los precios online de cada producto
+
+# desencapsular los precios online
 for item in jason1:
-    l_p1.append(item["products"]["1"])
-    l_p2.append(item["products"]["2"])
-    l_p3.append(item["products"]["3"])
-    l_p4.append(item["products"]["4"])
-    l_p5.append(item["products"]["5"])
-    l_p6.append(item["products"]["6"])
-    l_p7.append(item["products"]["7"])
-    l_p8.append(item["products"]["8"])
-    l_p9.append(item["products"]["9"])
-    l_p10.append(item["products"]["10"])
+    for key, value in item["products"].items():
+        dic_precio_productos_on[key].append(value)
 
-lst1=[l_p1, l_p2, l_p3, l_p4, l_p5, l_p6, l_p7, l_p8, l_p9, l_p10]
-print(lst1)
-lst_promedio_on=[]
-for i in lst1:
-    lst_promedio_on.append(metodos_pruebas.promedio(i))
+lst_promedio_on=[] # lista de promedios de precios de venta en tiendas virtuales por productos 
+for value in dic_precio_productos_on.values():
+    lst_promedio_on.append(metodos_pruebas.promedio(value))
 
+# que productos tienen un mayor aumento entre todas las tiendas
+dic_productos_mas_saltan = defaultdict(float)
 
+for key, value in dic_precio_productos_off.items():
+    rango = metodos_pruebas.mas_alto(value) - metodos_pruebas.mas_bajo(value)
+    dic_productos_mas_saltan[key] = rango
 
+print(dic_productos_mas_saltan)
+for key, value in dic_precio_productos_on.items():
+    rango = metodos_pruebas.mas_alto(value) - metodos_pruebas.mas_bajo(value)
+    if key in dic_productos_mas_saltan.keys():
+        if dic_productos_mas_saltan[key] > rango:
+            dic_productos_mas_saltan[key] = rango
 
-
-
+print(dic_productos_mas_saltan)

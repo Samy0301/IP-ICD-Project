@@ -7,6 +7,12 @@ def promedio(lst_int):
     else:
         return 0
 
+def suma_canasta(lst):
+    suma=0
+    for i in lst:
+        suma+=i
+    return suma
+
 def porciento_salario_gastado(parte, total):
     if parte==total: return 0
     elif parte>total: 

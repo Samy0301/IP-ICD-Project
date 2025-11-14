@@ -1,15 +1,16 @@
 import json 
 import metodos_pruebas
 from collections import defaultdict
-
+import os
 
 
 # json de las mypimes
-with open("C:\\Users\\pc\\Desktop\\CD\\repos\\IP-ICD-Project\\probando\\prueba.json", "r", encoding="utf-8") as f:
+ruta_json = os.path.join(os.path.dirname(__file__), "prueba.json")
+with open(ruta_json, "r", encoding="utf-8") as f:
     jason = json.load(f)
 
 dic_precio_productos_off = defaultdict(list) # dic de listas con los precios offline por producto
-
+print(dic_precio_productos_off)
 # desencapsular los precios offline por producto
 for item in jason:
     for key, value in item["products"].items():
@@ -21,7 +22,8 @@ for value in dic_precio_productos_off.values():
 
 
 # json de las tiendas virtuales
-with open("C:\\Users\\pc\\Desktop\\CD\\repos\\IP-ICD-Project\\probando\\prueba_online.json", "r", encoding="utf-8") as f:
+ruta_json = os.path.join(os.path.dirname(__file__), "prueba_online.json")
+with open(ruta_json, "r", encoding="utf-8") as f:
     jason1=json.load(f)
 
 dic_precio_productos_on = defaultdict(list) # dic de listas con los precios online de cada producto
@@ -34,6 +36,9 @@ for item in jason1:
 lst_promedio_on=[] # lista de promedios de precios de venta en tiendas virtuales por productos 
 for value in dic_precio_productos_on.values():
     lst_promedio_on.append(metodos_pruebas.promedio(value))
+
+
+
 
 # que productos tienen un mayor aumento entre todas las tiendas
 dic_productos_mas_saltan = defaultdict(float)

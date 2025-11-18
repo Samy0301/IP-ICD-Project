@@ -21,6 +21,10 @@ def porciento_salario_gastado(parte, total):
         return (parte*100)/total
     
 
+def diff(off, on):
+    return (off-on)/off*100
+
+
 def porciento_positivo(n, m):
     return n-m if n>=m else m-n
 

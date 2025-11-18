@@ -39,6 +39,13 @@ for value in dic_precio_productos_on.values():
 
 
 
+# Diff que productos hacen que la mas barata sea la mas barata
+lst_diff=[]
+for i in range(len(lst_promedio_off)):
+    lst_diff.append(metodos_pruebas.diff(lst_promedio_off[i], lst_promedio_on[i]))
+
+
+print(lst_diff)
 
 # que productos tienen un mayor aumento entre todas las tiendas
 dic_productos_mas_saltan = defaultdict(float)

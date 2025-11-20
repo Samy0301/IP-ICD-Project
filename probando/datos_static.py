@@ -19,7 +19,4 @@ porciento_gasto_on_salario = metodos_pruebas.porciento_salario_gastado(precio_ca
 porciento_ahorro_salario = metodos_pruebas.porciento_positivo(porciento_gasto_off_salario, porciento_gasto_on_salario)
     # string para saber que canal es mas barato
 canal_barato_precio = metodos_pruebas.canal_mas_barato(precio_canasta_off, precio_canasta_on)
-    # producto que mas y menos rango de aumento de precio tienen
-producto_mayor_rango, producto_menor_rango = metodos_pruebas.mayor_rango(dic_work.dic_productos_mas_saltan)
 
-print(precio_canasta_off)

@@ -10,7 +10,6 @@ with open(ruta_json, "r", encoding="utf-8") as f:
     jason = json.load(f)
 
 dic_precio_productos_off = defaultdict(list) # dic de listas con los precios offline por producto
-print(dic_precio_productos_off)
 # desencapsular los precios offline por producto
 for item in jason:
     for key, value in item["products"].items():
@@ -41,24 +40,19 @@ for value in dic_precio_productos_on.values():
 
 # Diff que productos hacen que la mas barata sea la mas barata
 lst_diff=[]
-for i in range(len(lst_promedio_off)):
+for i in range(10):
     lst_diff.append(metodos_pruebas.diff(lst_promedio_off[i], lst_promedio_on[i]))
 
 
-print(lst_diff)
+# rango de los productos en cada canal 
+lst_rango_off=[]  # lista con los ragos de diferencia de precio por productos en tiendas
 
-# que productos tienen un mayor aumento entre todas las tiendas
-dic_productos_mas_saltan = defaultdict(float)
+for value in dic_precio_productos_off.values():
+    lst_rango_off.append(metodos_pruebas.rango(value))
 
-for key, value in dic_precio_productos_off.items():
-    rango = metodos_pruebas.mas_alto(value) - metodos_pruebas.mas_bajo(value)
-    dic_productos_mas_saltan[key] = rango
+lst_rango_on=[]  # lista con los ragos de diferencia de precio por productos en linea
 
-print(dic_productos_mas_saltan)
-for key, value in dic_precio_productos_on.items():
-    rango = metodos_pruebas.mas_alto(value) - metodos_pruebas.mas_bajo(value)
-    if key in dic_productos_mas_saltan.keys():
-        if dic_productos_mas_saltan[key] > rango:
-            dic_productos_mas_saltan[key] = rango
+for value in dic_precio_productos_on.values():
+    lst_rango_on.append(metodos_pruebas.rango(value))
 
-print(dic_productos_mas_saltan)
+print(lst_rango_off)

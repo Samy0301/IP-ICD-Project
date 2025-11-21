@@ -55,4 +55,3 @@ lst_rango_on=[]  # lista con los ragos de diferencia de precio por productos en 
 for value in dic_precio_productos_on.values():
     lst_rango_on.append(metodos_pruebas.rango(value))
 
-print(lst_rango_off)

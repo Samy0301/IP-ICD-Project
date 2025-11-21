@@ -43,5 +43,9 @@ def rango(lst):
     
     return mayor-menor
 
-def convertir_tabla(lst):
-    
+def convertir_tabla(dic, lst1, lst2):
+    tabla = ""
+    for i in range(10):
+        tabla += f"| {dic[i]} | {lst1[i]} | {lst2[i]} |\n"
+    return tabla
+

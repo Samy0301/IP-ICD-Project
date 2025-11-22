@@ -20,6 +20,11 @@ def porciento_salario_gastado(parte, total):
     else:
         return (parte*100)/total
     
+def productos(dic):
+    lst=[]
+    for i in dic.keys():
+        lst.append(i)
+    return lst
 
 def diff(off, on):
     return (off-on)/off*100

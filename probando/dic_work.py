@@ -36,7 +36,8 @@ lst_promedio_on=[] # lista de promedios de precios de venta en tiendas virtuales
 for value in dic_precio_productos_on.values():
     lst_promedio_on.append(metodos_pruebas.promedio(value))
 
-
+# lista de productos
+lst_productos = metodos_pruebas.productos(jason[0]['products'])
 
 # Diff que productos hacen que la mas barata sea la mas barata
 lst_diff=[]

@@ -15,8 +15,6 @@ ahorro_anual = ahorro_semana * 12
     # promedio de gasto del salario por canasta en ambos canales
 porciento_gasto_off_salario = metodos_pruebas.porciento_salario_gastado(precio_canasta_off, salario_medio)
 porciento_gasto_on_salario = metodos_pruebas.porciento_salario_gastado(precio_canasta_on, salario_medio)
-    # que porciento del salario se ahorra (restando el mas caro con el maas barato)
-porciento_ahorro_salario = metodos_pruebas.porciento_positivo(porciento_gasto_off_salario, porciento_gasto_on_salario)
     # string para saber que canal es mas barato
 canal_barato_precio = metodos_pruebas.canal_mas_barato(precio_canasta_off, precio_canasta_on)
 

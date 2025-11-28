@@ -50,7 +50,17 @@ def rango(lst):
 
 def convertir_tabla(dic, lst1, lst2):
     tabla = ""
-    for i in range(10):
-        tabla += f"| {dic[i]} | {lst1[i]} | {lst2[i]} |\n"
+    for i in range(len(lst1)):
+        tabla += f"| {dic[i]} | {lst1[i]}$ | {lst2[i]}$ |\n"
     return tabla
 
+def tienda_cheap(dic):
+    min = 10**32
+    for value in dic.values():
+        if value[0] < min:
+            min = value[0]
+    
+    return min
+
+def porciento_riesgo(min, price):
+    return (price - min) / min * 100

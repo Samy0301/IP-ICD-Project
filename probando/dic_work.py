@@ -56,3 +56,33 @@ lst_rango_on=[]  # lista con los ragos de diferencia de precio por productos en 
 for value in dic_precio_productos_on.values():
     lst_rango_on.append(metodos_pruebas.rango(value))
 
+# riesgo de comprar en la tienda equivocada
+dic_off_canasta = defaultdict(list)  # cada tienda fisica el total de hacer la compra ahi
+precio_por_tienda_off = 0
+
+for item in jason:
+    for value in item["products"].values():
+        precio_por_tienda_off += value
+    dic_off_canasta[item["name"]].append(precio_por_tienda_off)
+    precio_por_tienda_off = 0
+
+min_entre_off = metodos_pruebas.tienda_cheap(dic_off_canasta) # total de comprar en la tienda mas barata
+
+for key, value in dic_off_canasta.items():
+    dic_off_canasta[key].append(metodos_pruebas.porciento_riesgo(min_entre_off, value[0]))
+
+
+dic_on_canasta = defaultdict(list)  # cada tienda online el total de hacer la compra ahi
+precio_por_tienda_on = 0
+
+for item in jason1:
+    for value in item["products"].values():
+        precio_por_tienda_on += value
+    dic_on_canasta[item["name"]].append(precio_por_tienda_on) 
+    precio_por_tienda_on = 0
+
+min_entre_on = metodos_pruebas.tienda_cheap(dic_on_canasta)
+
+for key, value in dic_on_canasta.items():
+    dic_on_canasta[key].append(metodos_pruebas.porciento_riesgo(min_entre_on, value[0]))
+

@@ -10,7 +10,8 @@
             "pizza": 300,
             "pan": 500,
             "refresco limon": 250,
-            "galleta" : 180
+            "galleta" : 180,
+            "energizante" : 280
         }
     },
 
@@ -39,7 +40,8 @@
             "cerveza" : 230,
             "pizza" : 250,
             "jugo" : 200,
-            "pan" : 500
+            "pan" : 500,
+            "energizante" : 350
         }
     },
 
@@ -62,11 +64,10 @@
         "length" : "-82.384339",
         "evidence" : "pictures/Intermedio",
         "products": {
-            "galletas": 320,
+            "galleta": 320,
             "jugo": 280,
             "cerveza": 320,
             "coca cola": 300,
-            "malta": 340,
             "pan": 250,
             "pizza": 700
         }
@@ -80,7 +81,6 @@
         "evidence" : "pictures/Sofia",
         "products": {
             "refresco limon": 300,
-            "malta": 260,
             "coca cola": 300,
             "cerveza": 350,
             "pan": 800,
@@ -93,7 +93,7 @@
         "municipio" : "Vedado",
         "latitude" : "23.135311",
         "length" : "-82.382168",
-        "evidence" : "picture/Wakamba",
+        "evidence" : "pictures/Wakamba",
         "products": {
             "galleta": 200,
             "cerveza": 350,
@@ -106,12 +106,11 @@
         "municipio" : "Vedado",
         "latitude" : "23.136424",
         "length" : "-82.381496",
-        "evidence" : "picture/VitaNova",
+        "evidence" : "pictures/VitaNova",
         "products": {
             "pizza": 250,
             "cerveza": 350,
             "jugo": 300,
-            "malta": 330
         }
     },
 
@@ -136,12 +135,11 @@
         "municipio" : "Vedado",
         "latitude" : "23.139753",
         "length" : "-82.385371",
-        "evidence" : "picture/21yK",
+        "evidence" : "pictures/21yK",
         "products": {
             "pizza": 250,
             "pan": 240,
             "cerveza": 250,
-            "malta": 280,
             "jugo": 190,
             "refresco limon": 260
         }
@@ -152,11 +150,11 @@
         "municipio" : "Vedado",
         "latitude" : "23.139632",
         "length" : "-82.384766",
-        "evidence" : "picture/ElEscaparate",
+        "evidence" : "pictures/ElEscaparate",
         "products": {
             "cerveza": 400,
-            "malta": 280,
-            "refresco limon": 250
+            "refresco limon": 250,
+            "energizante" : 350
         }
     },
 
@@ -170,7 +168,8 @@
             "refresco limon": 270,
             "pizza": 350,
             "pan": 650,
-            "jugo": 300
+            "jugo": 300,
+            "energizante" : 300
         }
     },
 
@@ -185,7 +184,8 @@
             "coca cola": 300,
             "galleta": 250,
             "jugo": 380,
-            "pan": 380
+            "pan": 380,
+            "energizante" : 310
         }
     },
 
@@ -238,7 +238,8 @@
             "coca cola": 240,
             "cerveza": 250,
             "jugo": 220,
-            "galleta": 280
+            "galleta": 280,
+            "energizante" : 260
         }
     },
 
@@ -265,7 +266,8 @@
             "coca cola": 300,
             "cerveza": 310,
             "pizza": 290,
-            "pan": 350
+            "pan": 350,
+            "energizante" : 300
         }
     },
 
@@ -282,184 +284,268 @@
     },
 
     { 
-        "name": "IML SERVICIOS S.U.R.L.",
-        "municipio" : "36 A #EDIF 121, APTO. 5,  E/ 1RA Y 3RA, CP 11300, MIRAMAR, PLAYA",
-        "length" : "",
-        "latitude" : "",
-        "evidence" : "",
+        "name": "29 y F",
+        "municipio" : "Vedado",
+        "length" : "23.132755",
+        "latitude" : "-82.386966",
+        "evidence" : "pictures/29yf",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "jugo": 190,
+            "coca cola": 250,
+            "cerveza": 280,
+            "refresco limon": 240,
+            "galleta": 170,
+            "pizza": 200,
+            "pan": 540
         }
-        },
+    },
 
     { 
-        "name": "SISCAR S.U.R.L.",
-        "municipio" : "36 #EDIF 115, APTO. 4,  E/ 3RA Y 1RA, CP 11300, MIRAMAR, PLAYA",
-        "length" : "",
-        "latitude" : "",
-        "evidence" : "",
+        "name": "Dos Amigos",
+        "municipio" : "Vedado",
+        "length" : "23.132552",
+        "latitude" : "-82.387142",
+        "evidence" : "pictures/DosAmigos",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "pan": 150,
+            "pizza": 200
         }
-        },
+    },
 
     { 
-        "name": "GRUPO RIVA S.R.L.",
-        "municipio" : "1RA #2206 E/ 22 Y 24, CP 11300, MIRAMAR, PLAYA",
-        "length" : "",
-        "latitude" : "",
-        "evidence" : "",
+        "name": "Mya Cafe",
+        "municipio" : "Vedado",
+        "length" : "23.132427",
+        "latitude" : "-82.387281",
+        "evidence" : "pictures/MyaCafe",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "pizza": 200,
+            "pan": 200
         }
-        },
+    },
 
     { 
-        "name": "SOL DE SEVILLE S.R.L.",
-        "municipio" : "16 #116, APTO. 1,  E/ 1RA Y 3RA, CP 11300, MIRAMAR, PLAYA",
-        "length" : "",
-        "latitude" : "",
-        "evidence" : "",
+        "name": "Babella",
+        "municipio" : "Vedado",
+        "length" : "23.131909",
+        "latitude" : "-82.387823",
+        "evidence" : "pictures/Babella",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "cerveza": 380,
+            "refresco limon": 300,
+            "jugo": 210,
+            "coca cola": 300,
+            "pan": 650,
+            "energizante" : 600
         }
-        },
+    },
 
     { 
-        "name": "FAYEVA S.R.L.",
-        "municipio" : "14 #104 E/ 1RA Y 3RA, CP 11300, MIRAMAR, PLAYA",
-        "length" : "",
-        "latitude" : "",
-        "evidence" : "",
+        "name": "Di'il Cafe",
+        "municipio" : "Vedado",
+        "length" : "23.131126",
+        "latitude" : "-82.388234",
+        "evidence" : "pictures/Di'il",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "jugo": 500,
+            "pan": 520,
+            "pizza": 300
         }
-        },
+    },
 
         { 
-        "name": "FLORES DE LA VIDA S.R.L.",
-        "municipio" : "5TA B #806, APTO. 1,  E/ 8 Y 10, CP 11300, MIRAMAR, PLAYA",
-        "length" : "",
-        "latitude" : "",
-        "evidence" : "",
+        "name": "Cafe Ramos",
+        "municipio" : "Vedado",
+        "length" : "23.131129",
+        "latitude" : "-82.388238",
+        "evidence" : "pictures/Ramos",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "refresco limon": 250,
+            "coca cola": 250,
+            "cerveza": 260,
+            "pan": 500,
+            "galleta": 180,
+            "energizante" : 260
         }
-        },
+    },
 
     { 
-        "name": "10CEA S.R.L.",
-        "municipio" : "#117 E/ 1RA Y 3RA CP 11300, MIRAMAR, PLAYA",
-        "length" : "",
-        "latitude" : "",
-        "evidence" : "",
+        "name": "Helpink",
+        "municipio" : "Vedado",
+        "length" : "23.131340",
+        "latitude" : "-82.388757",
+        "evidence" : "pictures/Helpink",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "jugo": 220,
+            "refresco limon": 375,
+            "cerveza": 410,
+            "pan": 650,
+            "pizza": 500,
+            "energizante" : 400
         }
-        },
+    },
 
     { 
-        "name": "ALEJANDRITA S.U.R.L.",
-        "municipio" : "1A #4214, APTO. 1-A BAJOS,  E/ 42 Y 44, CP 11300, MIRAMAR, PLAYA",
-        "length" : "",
-        "latitude" : "",
-        "evidence" : "",
+        "name": "Fogon",
+        "municipio" : "Vedado",
+        "length" : "23.131850",
+        "latitude" : "-82.388881",
+        "evidence" : "pictures/Fogon",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "pan": 300,
+            "pizza": 850,
+            "refresco limon": 420
         }
-        },
+    },
 
     { 
-        "name": "COMPAÑIA OLIVE S.U.R.L.",
-        "municipio" : "24 #303 E/ 3RA Y 5TA, CP 11300, MIRAMAR, PLAYA",
-        "length" : "",
-        "latitude" : "",
-        "evidence" : "",
+        "name": "El Mercadito",
+        "municipio" : "Vedado",
+        "length" : "23.134504",
+        "latitude" : "-82.389573",
+        "evidence" : "pictures/Mercadito",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "galleta": 200,
+            "cerveza": 230}
+    },
+
+    { 
+        "name": "23 y D",
+        "municipio" : "Vedado",
+        "length" : "23.134039",
+        "latitude" : "-82.390447",
+        "evidence" : "pictures/23yd",
+        "products": {
+            "cerveza": 350,
+            "refresco limon": 280,
+            "jugo": 230,
+            "energizante" : 600
         }
-        },
+    },
+
+    { 
+        "name": "Delicias",
+        "municipio" : "Vedado",
+        "length" : "23.133301",
+        "latitude" : "-82.391712",
+        "evidence" : "pictures/Delicias",
+        "products": {
+            "cerveza": 250,
+            "coca cola": 240,
+            "refresco limon": 240
+        }
+    },
+
+    { 
+        "name": "La Complicidad",
+        "municipio" : "Vedado",
+        "length" : "23.133416",
+        "latitude" : "-82.393062",
+        "evidence" : "pictures/LaComplicidad",
+        "products": {
+            "cerveza": 320,
+            "coca cola": 230,
+            "refresco limon": 230,
+            "jugo": 230,
+            "galleta": 200
+        }
+    },
+
+    { 
+        "name": "El Carnicero",
+        "municipio" : "Vedado",
+        "length" : "23.130961",
+        "latitude" : "-82.397023",
+        "evidence" : "pictures/ElCarnicero",
+        "products": {
+            "pan": 250,
+            "pizza": 250,
+            "galleta": 200
+        }
+    },
+
+    { 
+        "name": "Las Barrigonas",
+        "municipio" : "Vedado",
+        "length" : "23.130903",
+        "latitude" : "-82.397205",
+        "evidence" : "pictires/LasBarrigonas",
+        "products": {
+            "cerveza": 360,
+            "refresco limon": 270,
+            "jugo": 240,
+            "energizante" : 260
+        }
+    },
+
+    { 
+        "name": "Los Quemao",
+        "municipio" : "Vedado",
+        "length" : "23.130351",
+        "latitude" : "-82.397502",
+        "evidence" : "pictures/Quemao",
+        "products": {
+            "cerveza": 360,
+            "galleta": 180,
+            "energizante" : 590
+        }
+    },
+
+    { 
+        "name": "El Churro",
+        "municipio" : "Vedado",
+        "length" : "23.129740",
+        "latitude" : "-82.397652",
+        "evidence" : "pictures/ElChurro",
+        "products": {
+            "galleta": 140,
+            "cerveza": 300,
+            "coca cola":250,
+            "refresco limon": 250,
+            "energizante" : 600
+        }
+    },
+
+    { 
+        "name": "Papo's",
+        "municipio" : "Vedado",
+        "length" : "23.128980",
+        "latitude" : "-82.396948",
+        "evidence" : "pictures/Papos",
+        "products": {
+            "pan": 260,
+            "pizza": 950
+        }
+    },
+
+    { 
+        "name": "SP Mercado",
+        "municipio" : "Vedado",
+        "length" : "23.129414",
+        "latitude" : "-82.399081",
+        "evidence" : "pictures/SPMercado",
+        "products": {
+            "refesco limon": 260,
+            "cerveza": 320,
+            "galleta": 350,
+            "energizante" : 2500
+        }
+    },
+
+    { 
+        "name": "Los Veneros",
+        "municipio" : "Vedado",
+        "length" : "23.129086",
+        "latitude" : "-82.399531",
+        "evidence" : "pictures/Veneros",
+        "products": {
+            "cerveza": 300,
+            "coca cola": 220,
+            "refresco limon": 210,
+            "jugo": 200,
+            "energizante" : 260
+        }
+    },
 
     { 
         "name": "AGRUPO ATOPE S.U.R.L.",
@@ -479,7 +565,245 @@
             "9": 0,
             "10": 0
         }
+    },
+
+    { 
+        "name": "AGRUPO ATOPE S.U.R.L.",
+        "municipio" : "14 #509 E/ 5TA Y 7MA, CP 11300, MIRAMAR, PLAYA",
+        "length" : "",
+        "latitude" : "",
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
         }
+    },
 
+    { 
+        "name": "AGRUPO ATOPE S.U.R.L.",
+        "municipio" : "14 #509 E/ 5TA Y 7MA, CP 11300, MIRAMAR, PLAYA",
+        "length" : "",
+        "latitude" : "",
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
+    },
 
+    { 
+        "name": "AGRUPO ATOPE S.U.R.L.",
+        "municipio" : "14 #509 E/ 5TA Y 7MA, CP 11300, MIRAMAR, PLAYA",
+        "length" : "",
+        "latitude" : "",
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
+    },
+
+    { 
+        "name": "AGRUPO ATOPE S.U.R.L.",
+        "municipio" : "14 #509 E/ 5TA Y 7MA, CP 11300, MIRAMAR, PLAYA",
+        "length" : "",
+        "latitude" : "",
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
+    },
+
+    { 
+        "name": "AGRUPO ATOPE S.U.R.L.",
+        "municipio" : "14 #509 E/ 5TA Y 7MA, CP 11300, MIRAMAR, PLAYA",
+        "length" : "",
+        "latitude" : "",
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
+    },
+
+    { 
+        "name": "AGRUPO ATOPE S.U.R.L.",
+        "municipio" : "14 #509 E/ 5TA Y 7MA, CP 11300, MIRAMAR, PLAYA",
+        "length" : "",
+        "latitude" : "",
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
+    },
+
+    { 
+        "name": "AGRUPO ATOPE S.U.R.L.",
+        "municipio" : "14 #509 E/ 5TA Y 7MA, CP 11300, MIRAMAR, PLAYA",
+        "length" : "",
+        "latitude" : "",
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
+    },
+
+    { 
+        "name": "AGRUPO ATOPE S.U.R.L.",
+        "municipio" : "14 #509 E/ 5TA Y 7MA, CP 11300, MIRAMAR, PLAYA",
+        "length" : "",
+        "latitude" : "",
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
+    },
+
+    { 
+        "name": "AGRUPO ATOPE S.U.R.L.",
+        "municipio" : "14 #509 E/ 5TA Y 7MA, CP 11300, MIRAMAR, PLAYA",
+        "length" : "",
+        "latitude" : "",
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
+    },
+
+    { 
+        "name": "AGRUPO ATOPE S.U.R.L.",
+        "municipio" : "14 #509 E/ 5TA Y 7MA, CP 11300, MIRAMAR, PLAYA",
+        "length" : "",
+        "latitude" : "",
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
+    },
+
+    { 
+        "name": "AGRUPO ATOPE S.U.R.L.",
+        "municipio" : "14 #509 E/ 5TA Y 7MA, CP 11300, MIRAMAR, PLAYA",
+        "length" : "",
+        "latitude" : "",
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
+    },
+
+    { 
+        "name": "AGRUPO ATOPE S.U.R.L.",
+        "municipio" : "14 #509 E/ 5TA Y 7MA, CP 11300, MIRAMAR, PLAYA",
+        "length" : "",
+        "latitude" : "",
+        "evidence" : "",
+        "products": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+        }
+    }
 ]

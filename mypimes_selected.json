@@ -548,62 +548,45 @@
     },
 
     { 
-        "name": "AGRUPO ATOPE S.U.R.L.",
-        "municipio" : "14 #509 E/ 5TA Y 7MA, CP 11300, MIRAMAR, PLAYA",
+        "name": "Mercadito de 26",
+        "municipio" : "Vedado",
         "length" : "",
         "latitude" : "",
-        "evidence" : "",
+        "evidence" : "pictures/Mercadito26",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "galleta": 200,
+            "jugo": 180,
+            "energizante": 280,
+            "cerveza": 220
         }
     },
 
     { 
-        "name": "AGRUPO ATOPE S.U.R.L.",
-        "municipio" : "14 #509 E/ 5TA Y 7MA, CP 11300, MIRAMAR, PLAYA",
+        "name": "Victoria",
+        "municipio" : "Vedado",
         "length" : "",
         "latitude" : "",
-        "evidence" : "",
+        "evidence" : "pictures/Victoria",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "jugo": 200,
+            "cerveza": 350,
+            "refresco limon": 250
         }
     },
 
     { 
-        "name": "AGRUPO ATOPE S.U.R.L.",
-        "municipio" : "14 #509 E/ 5TA Y 7MA, CP 11300, MIRAMAR, PLAYA",
+        "name": "Mercadito de 23",
+        "municipio" : "Vedado",
         "length" : "",
         "latitude" : "",
-        "evidence" : "",
+        "evidence" : "picture/Mercadito23",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "galleta": 250,
+            "energizante": 650,
+            "jugo": 220,
+            "coca cola": 450,
+            "cerveza": 350,
+            "refresco limon": 350
         }
     },
 

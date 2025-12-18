@@ -3,15 +3,23 @@ import metodos_pruebas
 from collections import defaultdict
 import os
 
+#json del salario
+ruta_json_1 = os.path.join(os.path.dirname(__file__), "salario.json")
+with open(ruta_json_1, "r", encoding="utf-8") as f:
+    salario_js = json.load(f)
+
+lst_salarios = []
+for value in salario_js["salario_por_empleo"].values():
+    lst_salarios.append(value)
 
 # json de las mypimes
-ruta_json = os.path.join(os.path.dirname(__file__), "prueba.json")
-with open(ruta_json, "r", encoding="utf-8") as f:
-    jason = json.load(f)
+ruta_json_2 = os.path.join(os.path.dirname(__file__), "prueba.json")
+with open(ruta_json_2, "r", encoding="utf-8") as f:
+    mypimes_js = json.load(f)
 
 dic_precio_productos_off = defaultdict(list) # dic de listas con los precios offline por producto
 # desencapsular los precios offline por producto
-for item in jason:
+for item in mypimes_js:
     for key, value in item["products"].items():
         dic_precio_productos_off[key].append(value)
 
@@ -21,14 +29,14 @@ for value in dic_precio_productos_off.values():
 
 
 # json de las tiendas virtuales
-ruta_json = os.path.join(os.path.dirname(__file__), "prueba_online.json")
-with open(ruta_json, "r", encoding="utf-8") as f:
-    jason1=json.load(f)
+ruta_json_3 = os.path.join(os.path.dirname(__file__), "prueba_online.json")
+with open(ruta_json_3, "r", encoding="utf-8") as f:
+    online_js = json.load(f)
 
 dic_precio_productos_on = defaultdict(list) # dic de listas con los precios online de cada producto
 
 # desencapsular los precios online
-for item in jason1:
+for item in online_js:
     for key, value in item["products"].items():
         dic_precio_productos_on[key].append(value)
 
@@ -37,7 +45,7 @@ for value in dic_precio_productos_on.values():
     lst_promedio_on.append(metodos_pruebas.promedio(value))
 
 # lista de productos
-lst_productos = metodos_pruebas.productos(jason[0]['products'])
+lst_productos = metodos_pruebas.productos(mypimes_js[0]['products'])
 
 # Diff que productos hacen que la mas barata sea la mas barata
 lst_diff=[]
@@ -60,7 +68,7 @@ for value in dic_precio_productos_on.values():
 dic_off_canasta = defaultdict(list)  # cada tienda fisica el total de hacer la compra ahi
 precio_por_tienda_off = 0
 
-for item in jason:
+for item in mypimes_js:
     for value in item["products"].values():
         precio_por_tienda_off += value
     dic_off_canasta[item["name"]].append(precio_por_tienda_off)
@@ -75,7 +83,7 @@ for key, value in dic_off_canasta.items():
 dic_on_canasta = defaultdict(list)  # cada tienda online el total de hacer la compra ahi
 precio_por_tienda_on = 0
 
-for item in jason1:
+for item in online_js:
     for value in item["products"].values():
         precio_por_tienda_on += value
     dic_on_canasta[item["name"]].append(precio_por_tienda_on) 

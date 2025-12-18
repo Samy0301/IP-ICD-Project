@@ -1,0 +1,30 @@
+{
+    "fuente" : "Oficina Nacional de Estadistica e Informacion (ONEI)",
+    "boletin" : "Indicadores Seleccionados del sistema empresarial y presupuestado Octubre 2025",
+    "fecha_de_publicacio" : "10 de diciembre de 2025",
+    "ubicacion" : {
+        "apendice" : "6.2. Salario medio mensual por actividad económica del sistema empresarial y presupuestado",
+        "pagina" : 14
+    },
+
+    "salario_por_empleo" : {
+        "Agricultura, ganadería, caza y silvicultura" :  6414.6 ,
+        "Pesca" : 7070.2,
+        "Explotación de minas y canteras" : 8969.3,
+        "Industria azucarera" : 5750.3,
+        "Industria manufacturada excepto la industria azucarera" :  7728.2,
+        "Suministro de electricidad, gas y agua" : 12731.9,
+        "Construccion" : 13264.2,
+        "Comercio; reparacion de efectos personales" : 4639.9,
+        "Hoteles y restaurantes" : 5108.3,
+        "Transporte, almacenamiento y comunicaciones" : 8670.9,
+        "Intermediacion financiera" :  7832.9,
+        "Servicios empresariales, actividades inmobiliarias y de alquiler" :  9765.4,
+        "Administracion publica, defensa; seguridad social" :  5574.2,
+        "Ciencia e innovacion tecnologica" :  6942.2,
+        "Educacion" : 5467.5,
+        "Salud publica y asistencia social" :  6489.1,
+        "Cultura y deporte" : 5065.8,
+        "Otras actividades de servicios comunales, de asociaciones y personales" :  4718.1
+    }
+}

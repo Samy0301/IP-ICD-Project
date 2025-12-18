@@ -1,407 +1,289 @@
 [
     {
-        "name": "VER PARA CREER S.U.R.L",
-        "address" : "98 #712 E/ 7MA A Y 9NA, CP 11300, AMPLIACION DE ALMENDARES, PLAYA",
-        "latitude" : "58468453168",
-        "length" : "84763135684",
-        "evidence": "",
+        "name": "Prado Montero",
+        "municipio" : "Vedado",
+        "latitude" : "23.136460",
+        "length" : "-82.383378",
+        "evidence": "pictures/PradoMontero",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "cerveza": 250,
+            "pizza": 300,
+            "pan": 500,
+            "refresco limon": 250,
+            "galleta" : 180
         }
     },
 
     {
-        "name": "Z PEREZ S.U.R.L.",
-        "address" : "11 #4213 E/ 44 Y 42, CP 11300, AMPLIACION DE ALMENDARES, PLAYA",
-        "latitude" : "",
-        "length" : "",
-        "evidence" : "",
+        "name": "Titi Cafe",
+        "municipio" : "Vedado",
+        "latitude" : "23.136904",
+        "length" : "-82.383915",
+        "evidence" : "pictures/TitiCafe",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "cafe": 100,
+            "jugo": 180,
+            "pan": 450,
+            "pizza": 650
         }
     },
 
     {
-        "name": "CALIDADE S.U.R.L.",
-        "address" : "78 #913, APTO. ALTOS,  E/ 9NA Y 11, CP 11600, AMPLIACION DE ALMENDARES, PLAYA",
-        "latitude" : "",
-        "length" : "",
-        "evidence" : "",
+        "name": "La Fortuna",
+        "municipio" : "Vedado",
+        "latitude" : "23.136866",
+        "length" : "-82.383908",
+        "evidence" : "pictures/LaFortuna",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "galleta": 200,
+            "cerveza" : 230,
+            "pizza" : 250,
+            "jugo" : 200,
+            "pan" : 500
         }
     },
 
     {
-        "name": "GALIPA S.U.R.L.",
-        "address" : "7MA #6601 E/ 7MA Y 66, CP 11300, AMPLIACION DE ALMENDARES, PLAYA",
-        "latitude" : "",
-        "length" : "",
-        "evidence" : "",
+        "name": "El Duende",
+        "municipio" : "Vedado",
+        "latitude" : "23.136828",
+        "length" : "-82.383918",
+        "evidence" : "pictures/ElDuende",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "pizza": 250,
+            "pan": 130
         }
     },
 
     {
-        "name": "GUAREIRA S.R.L.",
-        "address" : "17 #6206 E/ 64 Y 62, CP 11600, AMPLIACION DE ALMENDARES, PLAYA",
-        "latitude" : "",
-        "length" : "",
-        "evidence" : "",
+        "name": "Intermedio",
+        "municipio" : "Vedado",
+        "latitude" : "23.138743",
+        "length" : "-82.384339",
+        "evidence" : "pictures/Intermedio",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "galletas": 320,
+            "jugo": 280,
+            "cerveza": 320,
+            "coca cola": 300,
+            "malta": 340,
+            "pan": 250,
+            "pizza": 700
         }
     },
 
     {
-        "name": "SINAG S.U.R.L.",
-        "address" : "17 #4629 E/ 46 Y 48, CP 11600, AMPLIACION DE ALMENDARES, PLAYA",
-        "latitude" : "",
-        "length" : "",
-        "evidence" : "",
+        "name": "Sofia",
+        "municipio" : "Vedado",
+        "latitude" : "23.135337",
+        "length" : "-82.382153",
+        "evidence" : "pictures/Sofia",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "refresco limon": 300,
+            "malta": 260,
+            "coca cola": 300,
+            "cerveza": 350,
+            "pan": 800,
+            "pizza": 800
         }
     },
 
     {
-        "name": "GASTRO CUBA S.U.R.L.",
-        "address" : "7MA B #6612, APTO. 3,  E/ 66 Y 70, CP 11300, AMPLIACION DE ALMENDARES, PLAYA",
-        "latitude" : "",
-        "length" : "",
-        "evidence" : "",
+        "name": "Wakamba",
+        "municipio" : "Vedado",
+        "latitude" : "23.135311",
+        "length" : "-82.382168",
+        "evidence" : "picture/Wakamba",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "galleta": 200,
+            "cerveza": 350,
+            "pizza": 300
         }
     },
 
     {
-        "name": "ALELIS KFE S.U.R.L.",
-        "address" : "26 #3501, APTO. ALTOS,  E/ 35 Y 37, CP 11300, SIERRA, PLAYA",
-        "latitude" : "",
-        "length" : "",
-        "evidence" : "",
+        "name": "Vita Nova",
+        "municipio" : "Vedado",
+        "latitude" : "23.136424",
+        "length" : "-82.381496",
+        "evidence" : "picture/VitaNova",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "pizza": 250,
+            "cerveza": 350,
+            "jugo": 300,
+            "malta": 330
         }
     },
 
     {
-        "name": "ANEMIX S.U.R.L.",
-        "address" : "35 #3611 E/ 36 Y 42, CP 11300, SIERRA, PLAYA",
-        "latitude" : "",
-        "length" : "",
-        "evidence" : "",
+        "name": "La Loreta",
+        "municipio" : "Vedado",
+        "latitude" : "23.136408",
+        "length" : "-82.381549",
+        "evidence" : "pictures/LaLoreta",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "pan": 300,
+            "jugo": 180,
+            "cerveza": 300,
+            "coca cola": 600,
+            "galleta": 80,
+            "pizza": 250
         }
     },
 
     {
-        "name": "ELISA S.U.R.L.",
-        "address" : "29 #3410 E/ 34 Y 36, CP 11300, SIERRA, PLAYA",
-        "latitude" : "",
-        "length" : "",
-        "evidence" : "",
+        "name": "21 y K",
+        "municipio" : "Vedado",
+        "latitude" : "23.139753",
+        "length" : "-82.385371",
+        "evidence" : "picture/21yK",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "pizza": 250,
+            "pan": 240,
+            "cerveza": 250,
+            "malta": 280,
+            "jugo": 190,
+            "refresco limon": 260
         }
     },
 
     {
-        "name": "ALMAC S.U.R.L.",
-        "address" : "27 #3002 E/ 30 Y 34, CP 11300, SIERRA, PLAYA",
-        "latitude" : "",
-        "length" : "",
-        "evidence" : "",
+        "name": "El Escaparate",
+        "municipio" : "Vedado",
+        "latitude" : "23.139632",
+        "length" : "-82.384766",
+        "evidence" : "picture/ElEscaparate",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "cerveza": 400,
+            "malta": 280,
+            "refresco limon": 250
         }
     },
 
     {
-        "name": "PEPE LOPEZ S.U.R.L.",
-        "address" : "33 #3416 E/ 34 Y 36 CP 11300, SIERRA, PLAYA",
-        "latitude" : "",
-        "length" : "",
-        "evidence" : "",
+        "name": "La Tres Torres",
+        "municipio" : "Vedado",
+        "latitude" : "23.138023",
+        "length" : "-82.385637",
+        "evidence" : "pictures/TresTorres",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "refresco limon": 270,
+            "pizza": 350,
+            "pan": 650,
+            "jugo": 300
         }
     },
 
     { 
-        "name": "ANDREA 21",
-        "address" : "1RA #29214, APTO. ALTOS,  E/ 292 Y 294, CP 11300, SANTA FE, PLAYA",
-        "length" : "",
-        "latitude" : "",
-        "evidence" : "",
+        "name": "Luna de Cristal",
+        "municipio" : "Vedado",
+        "length" : "23.136935",
+        "latitude" : "-82.385432",
+        "evidence" : "pictures/LunadeCristal",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "refresco limon": 300,
+            "coca cola": 300,
+            "galleta": 250,
+            "jugo": 380,
+            "pan": 380
         }
     },
 
     { 
-        "name": "MAYCHARLYS S.U.R.L.",
-        "address" : "11A #28419 E/ 7MA Y 284, CP 19100, SANTA FE, PLAYA",
-        "length" : "",
-        "latitude" : "",
-        "evidence" : "",
+        "name": "Mercadito Rubi",
+        "municipio" : "Vedado",
+        "length" : "23.130304",
+        "latitude" : "-82.387347",
+        "evidence" : "pictures/MercaditoRubi",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "jugo": 200,
+            "cerveza": 240,
+            "galleta": 200
         }
-        },
+    },
 
     { 
-        "name": "LA MECHUCA S.U.R.L.",
-        "address" : "1RA #30613 B E/ 306 Y 308, CP 19100, SANTA FE, PLAYA",
-        "length" : "",
-        "latitude" : "",
-        "evidence" : "",
+        "name": "Chinshal",
+        "municipio" : "Vedado",
+        "length" : "23.136165",
+        "latitude" : "-82.387189",
+        "evidence" : "pictures/Chinshal",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "jugo": 180,
+            "galleta": 180
         }
-        },
+    },
 
     { 
-        "name": "MARINOS CAFE S.R.L.",
-        "address" : "256 #503 E/ 5TA Y 5TA A, CP 19100, SANTA FE, PLAYA",
-        "length" : "",
-        "latitude" : "",
-        "evidence" : "",
+        "name": "Rey Gaby",
+        "municipio" : "Vedado",
+        "length" : "23.135496",
+        "latitude" : "-82.386842",
+        "evidence" : "pictures/ReyGaby",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "jugo": 530,
+            "refresco limon": 850,
+            "pizza": 2185,
+            "pan": 1840
         }
-        },
+    },
 
     { 
-        "name": "LA MORAVIA S.U.R.L.",
-        "address" : "1RA B #15404, APTO. 3,  E/ 154 Y 158, CP 11300, SANTA FE, PLAYA",
-        "length" : "",
-        "latitude" : "",
-        "evidence" : "",
+        "name": "Place",
+        "municipio" : "Vedado",
+        "length" : "23.135034",
+        "latitude" : "-82.387297",
+        "evidence" : "pictures/Place",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "coca cola": 240,
+            "cerveza": 250,
+            "jugo": 220,
+            "galleta": 280
         }
-        },
+    },
 
     { 
-        "name": "SABORES CUBANOS S.R.L.",
-        "address" : "1RA #29801 E/ 298 Y 300, CP 19100, SANTA FE, PLAYA",
-        "length" : "",
-        "latitude" : "",
-        "evidence" : "",
+        "name": "Nya'a",
+        "municipio" : "Vedado",
+        "length" : "23.134709",
+        "latitude" : "-82.386923",
+        "evidence" : "pictures/Nya",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "cerveza": 350,
+            "jugo": 280
         }
-        },
+    },
 
     { 
-        "name": "GRUPO MORENAS S.U.R.L.",
-        "address" : "156 #326 E/ 3RA B Y 3RA D, CP 11600, SANTA FE, PLAYA",
-        "length" : "",
-        "latitude" : "",
-        "evidence" : "",
+        "name": "Gamelys",
+        "municipio" : "Vedado",
+        "length" : "23.134520",
+        "latitude" : "-82.386406",
+        "evidence" : "pictures/Gamelys",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "refresco limon": 300,
+            "coca cola": 300,
+            "cerveza": 310,
+            "pizza": 290,
+            "pan": 350
         }
-        },
+    },
 
     { 
-        "name": "CRIA CUERVOS S.R.L.",
-        "address" : "226 #307 E/ 3RA Y 3RA A, CP 12200, SANTA FE, PLAYA",
-        "length" : "",
-        "latitude" : "",
-        "evidence" : "",
+        "name": "La Lucha",
+        "municipio" : "Vedado",
+        "length" : "23.132935",
+        "latitude" : "-82.386648",
+        "evidence" : "pictures/LaLucha",
         "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "galleta": 200,
+            "cerveza": 360
         }
-        },
+    },
 
     { 
         "name": "IML SERVICIOS S.U.R.L.",
-        "address" : "36 A #EDIF 121, APTO. 5,  E/ 1RA Y 3RA, CP 11300, MIRAMAR, PLAYA",
+        "municipio" : "36 A #EDIF 121, APTO. 5,  E/ 1RA Y 3RA, CP 11300, MIRAMAR, PLAYA",
         "length" : "",
         "latitude" : "",
         "evidence" : "",
@@ -421,7 +303,7 @@
 
     { 
         "name": "SISCAR S.U.R.L.",
-        "address" : "36 #EDIF 115, APTO. 4,  E/ 3RA Y 1RA, CP 11300, MIRAMAR, PLAYA",
+        "municipio" : "36 #EDIF 115, APTO. 4,  E/ 3RA Y 1RA, CP 11300, MIRAMAR, PLAYA",
         "length" : "",
         "latitude" : "",
         "evidence" : "",
@@ -441,7 +323,7 @@
 
     { 
         "name": "GRUPO RIVA S.R.L.",
-        "address" : "1RA #2206 E/ 22 Y 24, CP 11300, MIRAMAR, PLAYA",
+        "municipio" : "1RA #2206 E/ 22 Y 24, CP 11300, MIRAMAR, PLAYA",
         "length" : "",
         "latitude" : "",
         "evidence" : "",
@@ -461,7 +343,7 @@
 
     { 
         "name": "SOL DE SEVILLE S.R.L.",
-        "address" : "16 #116, APTO. 1,  E/ 1RA Y 3RA, CP 11300, MIRAMAR, PLAYA",
+        "municipio" : "16 #116, APTO. 1,  E/ 1RA Y 3RA, CP 11300, MIRAMAR, PLAYA",
         "length" : "",
         "latitude" : "",
         "evidence" : "",
@@ -481,7 +363,7 @@
 
     { 
         "name": "FAYEVA S.R.L.",
-        "address" : "14 #104 E/ 1RA Y 3RA, CP 11300, MIRAMAR, PLAYA",
+        "municipio" : "14 #104 E/ 1RA Y 3RA, CP 11300, MIRAMAR, PLAYA",
         "length" : "",
         "latitude" : "",
         "evidence" : "",
@@ -501,7 +383,7 @@
 
         { 
         "name": "FLORES DE LA VIDA S.R.L.",
-        "address" : "5TA B #806, APTO. 1,  E/ 8 Y 10, CP 11300, MIRAMAR, PLAYA",
+        "municipio" : "5TA B #806, APTO. 1,  E/ 8 Y 10, CP 11300, MIRAMAR, PLAYA",
         "length" : "",
         "latitude" : "",
         "evidence" : "",
@@ -521,7 +403,7 @@
 
     { 
         "name": "10CEA S.R.L.",
-        "address" : "#117 E/ 1RA Y 3RA CP 11300, MIRAMAR, PLAYA",
+        "municipio" : "#117 E/ 1RA Y 3RA CP 11300, MIRAMAR, PLAYA",
         "length" : "",
         "latitude" : "",
         "evidence" : "",
@@ -541,7 +423,7 @@
 
     { 
         "name": "ALEJANDRITA S.U.R.L.",
-        "address" : "1A #4214, APTO. 1-A BAJOS,  E/ 42 Y 44, CP 11300, MIRAMAR, PLAYA",
+        "municipio" : "1A #4214, APTO. 1-A BAJOS,  E/ 42 Y 44, CP 11300, MIRAMAR, PLAYA",
         "length" : "",
         "latitude" : "",
         "evidence" : "",
@@ -561,7 +443,7 @@
 
     { 
         "name": "COMPAÑIA OLIVE S.U.R.L.",
-        "address" : "24 #303 E/ 3RA Y 5TA, CP 11300, MIRAMAR, PLAYA",
+        "municipio" : "24 #303 E/ 3RA Y 5TA, CP 11300, MIRAMAR, PLAYA",
         "length" : "",
         "latitude" : "",
         "evidence" : "",
@@ -581,7 +463,7 @@
 
     { 
         "name": "AGRUPO ATOPE S.U.R.L.",
-        "address" : "14 #509 E/ 5TA Y 7MA, CP 11300, MIRAMAR, PLAYA",
+        "municipio" : "14 #509 E/ 5TA Y 7MA, CP 11300, MIRAMAR, PLAYA",
         "length" : "",
         "latitude" : "",
         "evidence" : "",

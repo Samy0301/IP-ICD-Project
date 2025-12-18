@@ -1,7 +1,7 @@
 import dic_work
 import metodos_pruebas
 
-salario_medio = 5922.60 
+salario_medio = metodos_pruebas.promedio(dic_work.lst_salarios)
 
 # promedio de toda la canasta en ambos canales 
 precio_canasta_off = metodos_pruebas.suma_canasta(dic_work.lst_promedio_off)

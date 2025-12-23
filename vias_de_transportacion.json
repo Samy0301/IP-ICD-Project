@@ -1,0 +1,31 @@
+[
+    {
+        "via" : "transporte publico",
+        "vehiculo" : "guagua",
+        "costo" : 0
+    },
+
+    {
+        "via" : "transporte publico",
+        "vehiculo" : "rutero",
+        "costo" : 0
+    },
+
+    {
+        "via" : "servicio de taxis",
+        "found" : "aplicacion",
+        "name" : "La Nave",
+        "link" : "",
+        "vehiculo" : "auto",
+        "costo" : 0
+    },
+
+    {
+        "via" : "servidio de taxis",
+        "found" : "grupo de Wathsapp",
+        "name" : "",
+        "link" : "",
+        "vehiculo" : "",
+        "costo" : ""
+    }
+]

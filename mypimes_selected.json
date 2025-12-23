@@ -1,9 +1,9 @@
 [
     {
         "name": "Prado Montero",
-        "municipio" : "Vedado",
-        "latitude" : "23.136460",
-        "length" : "-82.383378",
+        "municipio" : "Plaza de la Revolucion ",
+        "latitude" : 23.136460,
+        "length" : -82.383378,
         "evidence": "pictures/PradoMontero",
         "products": {
             "cerveza": 250,
@@ -17,12 +17,11 @@
 
     {
         "name": "Titi Cafe",
-        "municipio" : "Vedado",
-        "latitude" : "23.136904",
-        "length" : "-82.383915",
+        "municipio" : "Plaza de la Revolucion ",
+        "latitude" : 23.136904,
+        "length" : -82.383915,
         "evidence" : "pictures/TitiCafe",
         "products": {
-            "cafe": 100,
             "jugo": 180,
             "pan": 450,
             "pizza": 650
@@ -31,9 +30,9 @@
 
     {
         "name": "La Fortuna",
-        "municipio" : "Vedado",
-        "latitude" : "23.136866",
-        "length" : "-82.383908",
+        "municipio" : "Plaza de la Revolucion ",
+        "latitude" : 23.136866,
+        "length" : -82.383908,
         "evidence" : "pictures/LaFortuna",
         "products": {
             "galleta": 200,
@@ -47,9 +46,9 @@
 
     {
         "name": "El Duende",
-        "municipio" : "Vedado",
-        "latitude" : "23.136828",
-        "length" : "-82.383918",
+        "municipio" : "Plaza de la Revolucion ",
+        "latitude" : 23.136828,
+        "length" : -82.383918,
         "evidence" : "pictures/ElDuende",
         "products": {
             "pizza": 250,
@@ -59,9 +58,9 @@
 
     {
         "name": "Intermedio",
-        "municipio" : "Vedado",
-        "latitude" : "23.138743",
-        "length" : "-82.384339",
+        "municipio" : "Plaza de la Revolucion ",
+        "latitude" : 23.138743,
+        "length" : -82.384339,
         "evidence" : "pictures/Intermedio",
         "products": {
             "galleta": 320,
@@ -75,9 +74,9 @@
 
     {
         "name": "Sofia",
-        "municipio" : "Vedado",
-        "latitude" : "23.135337",
-        "length" : "-82.382153",
+        "municipio" : "Plaza de la Revolucion ",
+        "latitude" : 23.135337,
+        "length" : -82.382153,
         "evidence" : "pictures/Sofia",
         "products": {
             "refresco limon": 300,
@@ -90,9 +89,9 @@
 
     {
         "name": "Wakamba",
-        "municipio" : "Vedado",
-        "latitude" : "23.135311",
-        "length" : "-82.382168",
+        "municipio" : "Plaza de la Revolucion ",
+        "latitude" : 23.135311,
+        "length" : -82.382168,
         "evidence" : "pictures/Wakamba",
         "products": {
             "galleta": 200,
@@ -103,22 +102,22 @@
 
     {
         "name": "Vita Nova",
-        "municipio" : "Vedado",
-        "latitude" : "23.136424",
-        "length" : "-82.381496",
+        "municipio" : "Plaza de la Revolucion ",
+        "latitude" : 23.136424,
+        "length" : -82.381496,
         "evidence" : "pictures/VitaNova",
         "products": {
             "pizza": 250,
             "cerveza": 350,
-            "jugo": 300,
+            "jugo": 300
         }
     },
 
     {
         "name": "La Loreta",
-        "municipio" : "Vedado",
-        "latitude" : "23.136408",
-        "length" : "-82.381549",
+        "municipio" : "Plaza de la Revolucion ",
+        "latitude" : 23.136408,
+        "length" : -82.381549,
         "evidence" : "pictures/LaLoreta",
         "products": {
             "pan": 300,
@@ -132,9 +131,9 @@
 
     {
         "name": "21 y K",
-        "municipio" : "Vedado",
-        "latitude" : "23.139753",
-        "length" : "-82.385371",
+        "municipio" : "Plaza de la Revolucion ",
+        "latitude" : 23.139753,
+        "length" : -82.385371,
         "evidence" : "pictures/21yK",
         "products": {
             "pizza": 250,
@@ -147,9 +146,9 @@
 
     {
         "name": "El Escaparate",
-        "municipio" : "Vedado",
-        "latitude" : "23.139632",
-        "length" : "-82.384766",
+        "municipio" : "Plaza de la Revolucion ",
+        "latitude" : 23.139632,
+        "length" : -82.384766,
         "evidence" : "pictures/ElEscaparate",
         "products": {
             "cerveza": 400,
@@ -160,9 +159,9 @@
 
     {
         "name": "La Tres Torres",
-        "municipio" : "Vedado",
-        "latitude" : "23.138023",
-        "length" : "-82.385637",
+        "municipio" : "Plaza de la Revolucion ",
+        "latitude" : 23.138023,
+        "length" : -82.385637,
         "evidence" : "pictures/TresTorres",
         "products": {
             "refresco limon": 270,
@@ -175,9 +174,9 @@
 
     { 
         "name": "Luna de Cristal",
-        "municipio" : "Vedado",
-        "length" : "23.136935",
-        "latitude" : "-82.385432",
+        "municipio" : "Plaza de la Revolucion ",
+        "length" : 23.136935,
+        "latitude" : -82.385432,
         "evidence" : "pictures/LunadeCristal",
         "products": {
             "refresco limon": 300,
@@ -191,9 +190,9 @@
 
     { 
         "name": "Mercadito Rubi",
-        "municipio" : "Vedado",
-        "length" : "23.130304",
-        "latitude" : "-82.387347",
+        "municipio" : "Plaza de la Revolucion ",
+        "length" : 23.130304,
+        "latitude" : -82.387347,
         "evidence" : "pictures/MercaditoRubi",
         "products": {
             "jugo": 200,
@@ -204,9 +203,9 @@
 
     { 
         "name": "Chinshal",
-        "municipio" : "Vedado",
-        "length" : "23.136165",
-        "latitude" : "-82.387189",
+        "municipio" : "Plaza de la Revolucion ",
+        "length" : 23.136165,
+        "latitude" : -82.387189,
         "evidence" : "pictures/Chinshal",
         "products": {
             "jugo": 180,
@@ -216,9 +215,9 @@
 
     { 
         "name": "Rey Gaby",
-        "municipio" : "Vedado",
-        "length" : "23.135496",
-        "latitude" : "-82.386842",
+        "municipio" : "Plaza de la Revolucion ",
+        "length" : 23.135496,
+        "latitude" : -82.386842,
         "evidence" : "pictures/ReyGaby",
         "products": {
             "jugo": 530,
@@ -230,9 +229,9 @@
 
     { 
         "name": "Place",
-        "municipio" : "Vedado",
-        "length" : "23.135034",
-        "latitude" : "-82.387297",
+        "municipio" : "Plaza de la Revolucion ",
+        "length" : 23.135034,
+        "latitude" : -82.387297,
         "evidence" : "pictures/Place",
         "products": {
             "coca cola": 240,
@@ -245,9 +244,9 @@
 
     { 
         "name": "Nya'a",
-        "municipio" : "Vedado",
-        "length" : "23.134709",
-        "latitude" : "-82.386923",
+        "municipio" : "Plaza de la Revolucion ",
+        "length" : 23.134709,
+        "latitude" : -82.386923,
         "evidence" : "pictures/Nya",
         "products": {
             "cerveza": 350,
@@ -257,9 +256,9 @@
 
     { 
         "name": "Gamelys",
-        "municipio" : "Vedado",
-        "length" : "23.134520",
-        "latitude" : "-82.386406",
+        "municipio" : "Plaza de la Revolucion ",
+        "length" : 23.134520,
+        "latitude" : -82.386406,
         "evidence" : "pictures/Gamelys",
         "products": {
             "refresco limon": 300,
@@ -273,9 +272,9 @@
 
     { 
         "name": "La Lucha",
-        "municipio" : "Vedado",
-        "length" : "23.132935",
-        "latitude" : "-82.386648",
+        "municipio" : "Plaza de la Revolucion ",
+        "length" : 23.132935,
+        "latitude" : -82.386648,
         "evidence" : "pictures/LaLucha",
         "products": {
             "galleta": 200,
@@ -285,9 +284,9 @@
 
     { 
         "name": "29 y F",
-        "municipio" : "Vedado",
-        "length" : "23.132755",
-        "latitude" : "-82.386966",
+        "municipio" : "Plaza de la Revolucion ",
+        "length" : 23.132755,
+        "latitude" : -82.386966,
         "evidence" : "pictures/29yf",
         "products": {
             "jugo": 190,
@@ -302,9 +301,9 @@
 
     { 
         "name": "Dos Amigos",
-        "municipio" : "Vedado",
-        "length" : "23.132552",
-        "latitude" : "-82.387142",
+        "municipio" : "Plaza de la Revolucion ",
+        "length" : 23.132552,
+        "latitude" : -82.387142,
         "evidence" : "pictures/DosAmigos",
         "products": {
             "pan": 150,
@@ -314,9 +313,9 @@
 
     { 
         "name": "Mya Cafe",
-        "municipio" : "Vedado",
-        "length" : "23.132427",
-        "latitude" : "-82.387281",
+        "municipio" : "Plaza de la Revolucion ",
+        "length" : 23.132427,
+        "latitude" : -82.387281,
         "evidence" : "pictures/MyaCafe",
         "products": {
             "pizza": 200,
@@ -326,9 +325,9 @@
 
     { 
         "name": "Babella",
-        "municipio" : "Vedado",
-        "length" : "23.131909",
-        "latitude" : "-82.387823",
+        "municipio" : "Plaza de la Revolucion ",
+        "length" : 23.131909,
+        "latitude" : -82.387823,
         "evidence" : "pictures/Babella",
         "products": {
             "cerveza": 380,
@@ -342,9 +341,9 @@
 
     { 
         "name": "Di'il Cafe",
-        "municipio" : "Vedado",
-        "length" : "23.131126",
-        "latitude" : "-82.388234",
+        "municipio" : "Plaza de la Revolucion ",
+        "length" : 23.131126,
+        "latitude" : -82.388234,
         "evidence" : "pictures/Di'il",
         "products": {
             "jugo": 500,
@@ -355,9 +354,9 @@
 
         { 
         "name": "Cafe Ramos",
-        "municipio" : "Vedado",
-        "length" : "23.131129",
-        "latitude" : "-82.388238",
+        "municipio" : "Plaza de la Revolucion ",
+        "length" : 23.131129,
+        "latitude" : -82.388238,
         "evidence" : "pictures/Ramos",
         "products": {
             "refresco limon": 250,
@@ -371,9 +370,9 @@
 
     { 
         "name": "Helpink",
-        "municipio" : "Vedado",
-        "length" : "23.131340",
-        "latitude" : "-82.388757",
+        "municipio" : "Plaza de la Revolucion ",
+        "length" : 23.131340,
+        "latitude" : -82.388757,
         "evidence" : "pictures/Helpink",
         "products": {
             "jugo": 220,
@@ -387,9 +386,9 @@
 
     { 
         "name": "Fogon",
-        "municipio" : "Vedado",
-        "length" : "23.131850",
-        "latitude" : "-82.388881",
+        "municipio" : "Plaza de la Revolucion ",
+        "length" : 23.131850,
+        "latitude" : -82.388881,
         "evidence" : "pictures/Fogon",
         "products": {
             "pan": 300,
@@ -400,9 +399,9 @@
 
     { 
         "name": "El Mercadito",
-        "municipio" : "Vedado",
-        "length" : "23.134504",
-        "latitude" : "-82.389573",
+        "municipio" : "Plaza de la Revolucion ",
+        "length" : 23.134504,
+        "latitude" : -82.389573,
         "evidence" : "pictures/Mercadito",
         "products": {
             "galleta": 200,
@@ -411,9 +410,9 @@
 
     { 
         "name": "23 y D",
-        "municipio" : "Vedado",
-        "length" : "23.134039",
-        "latitude" : "-82.390447",
+        "municipio" : "Plaza de la Revolucion ",
+        "length" : 23.134039,
+        "latitude" : -82.390447,
         "evidence" : "pictures/23yd",
         "products": {
             "cerveza": 350,
@@ -425,9 +424,9 @@
 
     { 
         "name": "Delicias",
-        "municipio" : "Vedado",
-        "length" : "23.133301",
-        "latitude" : "-82.391712",
+        "municipio" : "Plaza de la Revolucion ",
+        "length" : 23.133301,
+        "latitude" : -82.391712,
         "evidence" : "pictures/Delicias",
         "products": {
             "cerveza": 250,
@@ -438,9 +437,9 @@
 
     { 
         "name": "La Complicidad",
-        "municipio" : "Vedado",
-        "length" : "23.133416",
-        "latitude" : "-82.393062",
+        "municipio" : "Plaza de la Revolucion ",
+        "length" : 23.133416,
+        "latitude" : -82.393062,
         "evidence" : "pictures/LaComplicidad",
         "products": {
             "cerveza": 320,
@@ -453,9 +452,9 @@
 
     { 
         "name": "El Carnicero",
-        "municipio" : "Vedado",
-        "length" : "23.130961",
-        "latitude" : "-82.397023",
+        "municipio" : "Plaza de la Revolucion ",
+        "length" : 23.130961,
+        "latitude" : -82.397023,
         "evidence" : "pictures/ElCarnicero",
         "products": {
             "pan": 250,
@@ -466,9 +465,9 @@
 
     { 
         "name": "Las Barrigonas",
-        "municipio" : "Vedado",
-        "length" : "23.130903",
-        "latitude" : "-82.397205",
+        "municipio" : "Plaza de la Revolucion ",
+        "length" : 23.130903,
+        "latitude" : -82.397205,
         "evidence" : "pictires/LasBarrigonas",
         "products": {
             "cerveza": 360,
@@ -480,9 +479,9 @@
 
     { 
         "name": "Los Quemao",
-        "municipio" : "Vedado",
-        "length" : "23.130351",
-        "latitude" : "-82.397502",
+        "municipio" : "Plaza de la Revolucion ",
+        "length" : 23.130351,
+        "latitude" : -82.397502,
         "evidence" : "pictures/Quemao",
         "products": {
             "cerveza": 360,
@@ -493,9 +492,9 @@
 
     { 
         "name": "El Churro",
-        "municipio" : "Vedado",
-        "length" : "23.129740",
-        "latitude" : "-82.397652",
+        "municipio" : "Plaza de la Revolucion ",
+        "length" : 23.129740,
+        "latitude" : -82.397652,
         "evidence" : "pictures/ElChurro",
         "products": {
             "galleta": 140,
@@ -508,9 +507,9 @@
 
     { 
         "name": "Papo's",
-        "municipio" : "Vedado",
-        "length" : "23.128980",
-        "latitude" : "-82.396948",
+        "municipio" : "Plaza de la Revolucion ",
+        "length" : 23.128980,
+        "latitude" : -82.396948,
         "evidence" : "pictures/Papos",
         "products": {
             "pan": 260,
@@ -520,12 +519,12 @@
 
     { 
         "name": "SP Mercado",
-        "municipio" : "Vedado",
-        "length" : "23.129414",
-        "latitude" : "-82.399081",
+        "municipio" : "Plaza de la Revolucion ",
+        "length" : 23.129414,
+        "latitude" : -82.399081,
         "evidence" : "pictures/SPMercado",
         "products": {
-            "refesco limon": 260,
+            "refresco limon": 260,
             "cerveza": 320,
             "galleta": 350,
             "energizante" : 2500
@@ -534,9 +533,9 @@
 
     { 
         "name": "Los Veneros",
-        "municipio" : "Vedado",
-        "length" : "23.129086",
-        "latitude" : "-82.399531",
+        "municipio" : "Plaza de la Revolucion ",
+        "length" : 23.129086,
+        "latitude" : -82.399531,
         "evidence" : "pictures/Veneros",
         "products": {
             "cerveza": 300,
@@ -549,7 +548,7 @@
 
     { 
         "name": "Mercadito de 26",
-        "municipio" : "Vedado",
+        "municipio" : "Plaza de la Revolucion ",
         "length" : "",
         "latitude" : "",
         "evidence" : "pictures/Mercadito26",
@@ -563,7 +562,7 @@
 
     { 
         "name": "Victoria",
-        "municipio" : "Vedado",
+        "municipio" : "Plaza de la Revolucion ",
         "length" : "",
         "latitude" : "",
         "evidence" : "pictures/Victoria",
@@ -576,7 +575,7 @@
 
     { 
         "name": "Mercadito de 23",
-        "municipio" : "Vedado",
+        "municipio" : "Plaza de la Revolucion ",
         "length" : "",
         "latitude" : "",
         "evidence" : "picture/Mercadito23",

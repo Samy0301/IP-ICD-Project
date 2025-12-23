@@ -3,7 +3,7 @@ import metodos_pruebas
 from collections import defaultdict
 import os
 
-#------------------------Json del Salario--------------------------------------------------------------------------------------
+#-------------------------------------------Json del Salario--------------------------------------------------------------------
 ruta_json_1 = os.path.join(os.path.dirname(__file__), "salario.json")
 with open(ruta_json_1, "r", encoding="utf-8") as f:
     salario_js = json.load(f)
@@ -12,7 +12,7 @@ lst_salarios = [] # lista con los salarios por trabajo
 for value in salario_js["salario_por_empleo"].values():
     lst_salarios.append(value)
 
-# ------------------------------------------json de las mypimes-----------------------------------------------------------------
+# ------------------------------------------Json De Las Mypimes-----------------------------------------------------------------
 ruta_json_2 = os.path.join(os.path.dirname(__file__), "prueba.json")
 with open(ruta_json_2, "r", encoding="utf-8") as f:
     mypimes_js = json.load(f)
@@ -40,7 +40,7 @@ for value in dic_precio_productos.values():
 
 # lista de productos
 lst_productos = metodos_pruebas.productos(dic_precio_productos)
-
+#---------------------------------------
 
 
 

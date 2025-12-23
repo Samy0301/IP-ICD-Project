@@ -1,0 +1,25 @@
+{
+    "salary" : {
+        "source" : "Oficina Nacional de Estadistica e Informacion (ONEI)",
+        "bulletin" : "Indicadores Seleccionados del sistema empresarial y presupuestado Octubre 2025",
+        "publication_date" : "10 de diciembre de 2025",
+        "information_used_location" : {
+            "apendice" : "6.2. Salario medio mensual por actividad económica del sistema empresarial y presupuestado",
+            "page" : 14
+        },
+        "page_link" : "",
+        "find_local_document" : "docs_used/indicadores-seleccionados-octubre-2025_0"
+    },
+
+    "transport" : {
+        "application" : {
+            "name" : "La Nave",
+            "link" : ""
+        },
+
+        "Wathsapp_group" : {
+            "name" : "",
+            "link" : " "
+        }
+    }
+}

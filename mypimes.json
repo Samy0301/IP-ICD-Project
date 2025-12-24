@@ -549,8 +549,8 @@
     { 
         "name": "Mercadito de 26",
         "municipio" : "Plaza de la Revolucion ",
-        "latitude" : "",
-        "length" : "",
+        "latitude" : 23.129086,
+        "length" : -82.399531,
         "evidence" : "pictures/Mercadito26",
         "products": {
             "galleta": 200,
@@ -563,8 +563,8 @@
     { 
         "name": "Victoria",
         "municipio" : "Plaza de la Revolucion ",
-        "latitude" : "",
-        "length" : "",
+        "latitude" : 23.129086,
+        "length" : -82.399531,
         "evidence" : "pictures/Victoria",
         "products": {
             "jugo": 200,
@@ -576,8 +576,8 @@
     { 
         "name": "Mercadito de 23",
         "municipio" : "Plaza de la Revolucion ",
-        "latitude" : "",
-        "length" : "",
+        "latitude" : 23.129086,
+        "length" : -82.399531,
         "evidence" : "picture/Mercadito23",
         "products": {
             "galleta": 250,
@@ -586,206 +586,6 @@
             "coca cola": 450,
             "cerveza": 350,
             "refresco limon": 350
-        }
-    },
-
-    { 
-        "name": "AGRUPO ATOPE S.U.R.L.",
-        "municipio" : "14 #509 E/ 5TA Y 7MA, CP 11300, MIRAMAR, PLAYA",
-        "latitude" : "",
-        "length" : "",
-        "evidence" : "",
-        "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
-        }
-    },
-
-    { 
-        "name": "AGRUPO ATOPE S.U.R.L.",
-        "municipio" : "14 #509 E/ 5TA Y 7MA, CP 11300, MIRAMAR, PLAYA",
-        "latitude" : "",
-        "length" : "",
-        "evidence" : "",
-        "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
-        }
-    },
-
-    { 
-        "name": "AGRUPO ATOPE S.U.R.L.",
-        "municipio" : "14 #509 E/ 5TA Y 7MA, CP 11300, MIRAMAR, PLAYA",
-        "latitude" : "",
-        "length" : "",
-        "evidence" : "",
-        "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
-        }
-    },
-
-    { 
-        "name": "AGRUPO ATOPE S.U.R.L.",
-        "municipio" : "14 #509 E/ 5TA Y 7MA, CP 11300, MIRAMAR, PLAYA",
-        "latitude" : "",
-        "length" : "",
-        "evidence" : "",
-        "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
-        }
-    },
-
-    { 
-        "name": "AGRUPO ATOPE S.U.R.L.",
-        "municipio" : "14 #509 E/ 5TA Y 7MA, CP 11300, MIRAMAR, PLAYA",
-        "latitude" : "",
-        "length" : "",
-        "evidence" : "",
-        "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
-        }
-    },
-
-    { 
-        "name": "AGRUPO ATOPE S.U.R.L.",
-        "municipio" : "14 #509 E/ 5TA Y 7MA, CP 11300, MIRAMAR, PLAYA",
-        "latitude" : "",
-        "length" : "",
-        "evidence" : "",
-        "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
-        }
-    },
-
-    { 
-        "name": "AGRUPO ATOPE S.U.R.L.",
-        "municipio" : "14 #509 E/ 5TA Y 7MA, CP 11300, MIRAMAR, PLAYA",
-        "latitude" : "",
-        "length" : "",
-        "evidence" : "",
-        "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
-        }
-    },
-
-    { 
-        "name": "AGRUPO ATOPE S.U.R.L.",
-        "municipio" : "14 #509 E/ 5TA Y 7MA, CP 11300, MIRAMAR, PLAYA",
-        "latitude" : "",
-        "length" : "",
-        "evidence" : "",
-        "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
-        }
-    },
-
-    { 
-        "name": "AGRUPO ATOPE S.U.R.L.",
-        "municipio" : "14 #509 E/ 5TA Y 7MA, CP 11300, MIRAMAR, PLAYA",
-        "latitude" : "",
-        "length" : "",
-        "evidence" : "",
-        "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
-        }
-    },
-
-    { 
-        "name": "AGRUPO ATOPE S.U.R.L.",
-        "municipio" : "14 #509 E/ 5TA Y 7MA, CP 11300, MIRAMAR, PLAYA",
-        "latitude" : "",
-        "length" : "",
-        "evidence" : "",
-        "products": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
         }
     }
 ]

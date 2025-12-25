@@ -1,6 +1,5 @@
 import json
 import os
-from collections import defaultdict
 #--------------------------------------------METHODS---------------------------------------------------
 #--------Do The Percent Whit A List--------
 def percent_lst(lst: list[float]) -> float:
@@ -10,6 +9,10 @@ def percent_lst(lst: list[float]) -> float:
             v_sum += x
         return v_sum/(len(lst)-1)
     else: return 0
+
+def media_lst(lst):
+    lst.sort()
+    return lst[len(lst)//2]
 #--------------------------------------------SALARY----------------------------------------------------
 route_salary = os.path.join(os.path.dirname(__file__), "salary.json")
 with open(route_salary, "r", encoding = "utf-8") as f:
@@ -28,24 +31,43 @@ route_mypime = os.path.join(os.path.dirname(__file__), "mypimes.json")
 with open(route_mypime, "r", encoding = "utf-8") as f:
     js_mypimes = json.load(f)
 
-#--------Product List-----------
-lst_products = []
-#--------Products Price Percent-----------
-lst_products_percent = []
-#--------Product Prices In Mypimes--------
-dic_product_price = defaultdict(list)
+#--------Products Price In Mypimes Percent-----------
+dic_products_percent = {}
 #--------Mypimes Cordenades---------------
-dic_mypimes_cordenades = defaultdict(list)
+dic_mypimes_cordenades = {}
 
 for item in js_mypimes:
+    if item["name"] not in dic_mypimes_cordenades:
+        dic_mypimes_cordenades[item["name"]] = []
     dic_mypimes_cordenades[item["name"]].append(item["latitude"])
     dic_mypimes_cordenades[item["name"]].append(item["length"])
     for key, value in item["products"].items():
-        dic_product_price[key].append(value)
-        if key not in lst_products:
-            lst_products.append(key)
+        if key not in dic_products_percent:
+            dic_products_percent[key] = []
+        dic_products_percent[key].append(value)
 
-for value in dic_product_price.values():
-    lst_products_percent.append(percent_lst(value))
-#----------------------------------------DATA------------------------------------------------------
-v_uh_cordenades = [23.136326, -82.382190]
+for key, value in dic_products_percent.items():
+    dic_products_percent[key] = percent_lst(value)
+#--------------------------------------------FOOD----------------------------------------------------
+#--------Types Of Products--------
+lst_solids = ["pizza", "galleta", "pan"]
+lst_liquids = ["refresco limon", "energizante", "coca cola", "cerveza", "jugo"]
+
+for x in range(len(lst_solids )):
+    lst_solids [x] = dic_products_percent[lst_solids [x]]
+
+for x in range(len(lst_liquids)):
+    lst_liquids[x] = dic_products_percent[lst_liquids[x]]
+
+#--------Price Of 1 Meal (1 Solid + 1 Liquid)---------------
+v_meal = percent_lst(lst_solids ) + percent_lst(lst_liquids)
+#--------Lifestyles If You Only Have A Snack---------
+v_ls_minimalist = 22 * v_meal
+#--------Lifestyle If You Have Snacks And Lunch 3 Times A Week------------
+v_ls_comfortable = (22 * v_meal) + (12 * v_meal)
+#--------Lifestyle If You Have Snacks And Lunch Everyday-----------
+v_ls_luxurious = 22 * (2 * v_meal)
+#------------------------------------------LIFESTYLES------------------------------------------------
+
+
+

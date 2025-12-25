@@ -2,6 +2,11 @@ import json
 import os
 #--------------------------------------------METHODS---------------------------------------------------
 #--------Do The Percent Whit A List--------
+def open_json(js: str) -> list[dict]:
+    route = os.path.join(os.path.dirname(__file__), js)
+    with open(route, "r", encoding = "utf-8") as f:
+        return json.load(f)
+
 def percent_lst(lst: list[float]) -> float:
     if len(lst) > 0:
         v_sum = 0
@@ -10,13 +15,11 @@ def percent_lst(lst: list[float]) -> float:
         return v_sum/(len(lst)-1)
     else: return 0
 
-def media_lst(lst):
+def media_lst(lst: list[float]) -> float:
     lst.sort()
     return lst[len(lst)//2]
 #--------------------------------------------SALARY----------------------------------------------------
-route_salary = os.path.join(os.path.dirname(__file__), "salary.json")
-with open(route_salary, "r", encoding = "utf-8") as f:
-    js_salary = json.load(f)
+js_salary = open_json("salary.json")
 
 #--------Salary List------------
 lst_salary = []
@@ -27,9 +30,7 @@ for value in js_salary.values():
 #--------Salary Percent Variable----------
 v_salary_percent = percent_lst(lst_salary)
 #-------------------------------------------MYPIMES---------------------------------------------------
-route_mypime = os.path.join(os.path.dirname(__file__), "mypimes.json")
-with open(route_mypime, "r", encoding = "utf-8") as f:
-    js_mypimes = json.load(f)
+js_mypimes = open_json("mypimes.json")
 
 #--------Products Price In Mypimes Percent-----------
 dic_products_percent = {}

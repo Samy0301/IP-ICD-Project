@@ -2,6 +2,7 @@
     {
       "product": "cerveza",
       "clasification": "liquido",
+      "prescindible":"si",
       "price": {
           "Prado_Montero": 250,
           "La Fortuna": 230,
@@ -52,74 +53,9 @@
     },
 
     {
-      "product": "pizza",
-      "clasification": "solido",
-      "price": {
-          "Prado_Montero": 300,
-          "Titi Cafe": 650,
-          "La Fortuna": 250,
-          "El Duende": 250,
-          "Intermedio": 700,
-          "Sofia": 800,
-          "Wakamba": 300,
-          "Vita Nova": 250,
-          "La Loreta": 250,
-          "21 y K": 250,
-          "La Tres Torres": 350,
-          "Rey Gaby": 2185,
-          "Gamelys": 290,
-          "29 y F": 200,
-          "Dos Amigos": 200,
-          "Mya Cafe": 200,
-          "Di'il Cafe": 300,
-          "Helpink": 500,
-          "Fogon": 850,
-          "El Carnicero": 250,
-          "Papo's": 950,
-          "Rays Pizza": 250,
-          "La Familia": 250,
-          "Linea y A": 250,
-          "Jugera": 250,
-          "Twin Pizza": 280,
-          "Mia": 250
-      }
-    },
-
-    {
-      "product": "pan",
-      "clasification": "solido",
-      "price": {
-          "Prado_Montero": 500,
-          "Titi Cafe": 450,
-          "La Fortuna": 500,
-          "El Duende": 130,
-          "Intermedio": 250,
-          "Sofia": 800,
-          "La Loreta": 300,
-          "21 y K": 240,
-          "La Tres Torres": 650,
-          "Luna de Cristal": 380,
-          "Rey Gaby": 1840,
-          "Gamelys": 350,
-          "29 y F": 540,
-          "Dos Amigos": 150,
-          "Mya Cafe": 200,
-          "Babella": 650,
-          "Di'il Cafe": 520,
-          "Cafe Ramos": 500,
-          "Helpink": 650,
-          "Fogon": 300,
-          "El Carnicero": 250,
-          "Papo's": 260,
-          "Doña Ileana": 500,
-          "Linea Meya": 240,
-          "Jugera": 350
-      }
-    },
-
-    {
       "product": "refresco limon",
       "clasification": "liquido",
+      "prescindible":"no",
       "price": {
           "Prado_Montero": 250,
           "Sofia": 300,
@@ -157,39 +93,9 @@
     },
 
     {
-      "product": "galleta",
-      "clasification": "solido",
-      "price": {
-          "Prado_Montero": 180,
-          "La Fortuna": 200,
-          "Intermedio": 320,
-          "Wakamba": 200,
-          "La Loreta": 80,
-          "Luna de Cristal": 250,
-          "Mercadito Rubi": 200,
-          "Chinshal": 180,
-          "Place": 280,
-          "La Lucha": 200,
-          "29 y F": 170,
-          "Cafe Ramos": 180,
-          "El Mercadito": 200,
-          "La Complicidad": 200,
-          "El Carnicero": 200,
-          "Los Quemao": 180,
-          "El Churro": 140,
-          "SP Mercado": 350,
-          "Mercadito de 26": 200,
-          "Mercadito de 23": 250,
-          "El Rojo": 180,
-          "Francis Cafe": 200,
-          "La Via Corta": 200,
-          "Mia": 350
-      }
-    },
-
-    {
       "product": "energizante",
       "clasification": "liquido",
+      "prescindible":"si",
       "price": {
           "Prado_Montero": 280,
           "La Fortuna": 350,
@@ -227,6 +133,7 @@
     {
       "product": "jugo",
       "clasification": "liquido",
+      "prescindible":"no",
       "price": {
           "Titi Cafe": 180,
           "La Fortuna": 200,
@@ -267,6 +174,7 @@
     {
       "product": "coca cola",
       "clasification": "liquido",
+      "prescindible":"si",
       "price": {
           "Intermedio": 300,
           "Sofia": 300,
@@ -285,6 +193,106 @@
           "D'Cotti": 340,
           "Bodegon de Luna": 550,
           "Xalxa": 590
+      }
+    },
+
+    {
+      "product": "pizza",
+      "clasification": "solido",
+      "prescindible":"no",
+      "price": {
+          "Prado_Montero": 300,
+          "Titi Cafe": 650,
+          "La Fortuna": 250,
+          "El Duende": 250,
+          "Intermedio": 700,
+          "Sofia": 800,
+          "Wakamba": 300,
+          "Vita Nova": 250,
+          "La Loreta": 250,
+          "21 y K": 250,
+          "La Tres Torres": 350,
+          "Rey Gaby": 2185,
+          "Gamelys": 290,
+          "29 y F": 200,
+          "Dos Amigos": 200,
+          "Mya Cafe": 200,
+          "Di'il Cafe": 300,
+          "Helpink": 500,
+          "Fogon": 850,
+          "El Carnicero": 250,
+          "Papo's": 950,
+          "Rays Pizza": 250,
+          "La Familia": 250,
+          "Linea y A": 250,
+          "Jugera": 250,
+          "Twin Pizza": 280,
+          "Mia": 250
+      }
+    },
+
+    {
+      "product": "pan",
+      "clasification": "solido",
+      "prescindible":"si",
+      "price": {
+          "Prado_Montero": 500,
+          "Titi Cafe": 450,
+          "La Fortuna": 500,
+          "El Duende": 130,
+          "Intermedio": 250,
+          "Sofia": 800,
+          "La Loreta": 300,
+          "21 y K": 240,
+          "La Tres Torres": 650,
+          "Luna de Cristal": 380,
+          "Rey Gaby": 1840,
+          "Gamelys": 350,
+          "29 y F": 540,
+          "Dos Amigos": 150,
+          "Mya Cafe": 200,
+          "Babella": 650,
+          "Di'il Cafe": 520,
+          "Cafe Ramos": 500,
+          "Helpink": 650,
+          "Fogon": 300,
+          "El Carnicero": 250,
+          "Papo's": 260,
+          "Doña Ileana": 500,
+          "Linea Meya": 240,
+          "Jugera": 350
+      }
+    },
+
+    {
+      "product": "galleta",
+      "clasification": "solido",
+      "prescindible":"no",
+      "price": {
+          "Prado_Montero": 180,
+          "La Fortuna": 200,
+          "Intermedio": 320,
+          "Wakamba": 200,
+          "La Loreta": 80,
+          "Luna de Cristal": 250,
+          "Mercadito Rubi": 200,
+          "Chinshal": 180,
+          "Place": 280,
+          "La Lucha": 200,
+          "29 y F": 170,
+          "Cafe Ramos": 180,
+          "El Mercadito": 200,
+          "La Complicidad": 200,
+          "El Carnicero": 200,
+          "Los Quemao": 180,
+          "El Churro": 140,
+          "SP Mercado": 350,
+          "Mercadito de 26": 200,
+          "Mercadito de 23": 250,
+          "El Rojo": 180,
+          "Francis Cafe": 200,
+          "La Via Corta": 200,
+          "Mia": 350
       }
     }
 ]

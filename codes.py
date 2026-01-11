@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 from IPython.display import Markdown 
 import textwrap
 #--------------------------------------------METHODS---------------------------------------------------
-#--------Do The Percent Whit A List--------
 def open_json(js: str) -> list[dict]:
     route = os.path.join(os.path.dirname(__file__), js)
     with open(route, "r", encoding = "utf-8") as f:
@@ -20,16 +19,15 @@ def percent_lst(lst: list[float]) -> float:
         return v_sum/(len(lst)-1)
     else: return 0
 
-def media_lst(lst: list[float]) -> float:
-    lst.sort()
-    return lst[len(lst)//2]
-#--------------------------------------------SALARY----------------------------------------------------
-js_salary = open_json("salary.json")
+def sum_lst(lst: list[float]) -> float:
+    v_sum = 0
+    for x in lst:
+        v_sum += x
+    return v_sum
 
 #-------------------------------------------MYPIMES---------------------------------------------------
 js_mypimes = open_json("mypimes.json")
 
-#--------Mypimes Cordenades---------------
 dic_mypimes_cordenades = {}
 
 for item in js_mypimes:
@@ -41,12 +39,11 @@ for item in js_mypimes:
 #--------------------------------------------FOOD----------------------------------------------------
 js_productos = open_json("products.json")
 
-#--------Products Price In Mypimes Percent-----------
 dic_products_percent = {}
-#-------list of solid products prices--------
 lst_solids = []
-#------list of liquids product prices--------
 lst_liquids = []
+lst_solind_less = []
+lst_liquids_less = []
 
 for product in js_productos:
     if product["product"] not in dic_products_percent.keys():
@@ -59,25 +56,55 @@ for key, value in dic_products_percent.items():
 
 for dic in js_productos:
     if dic["clasification"] == "solido":
+        if dic["prescindible"] == "no":
+            lst_solind_less.append(dic_products_percent[dic["product"]])
         lst_solids.append(dic_products_percent[dic["product"]])
     else:
+        if dic["prescindible"] == "no":
+            lst_liquids_less.append(dic_products_percent[dic["product"]])
         lst_liquids.append(dic_products_percent[dic["product"]]) 
 
-#--------Price Of 1 Meal (1 Solid + 1 Liquid) Month---------------
 v_meal = percent_lst(lst_liquids) + percent_lst(lst_solids)
-
+v_meal_less = percent_lst(lst_liquids_less) + percent_lst(lst_solind_less)
+print(dic_products_percent.keys())
 #------------------------------------------TRANSPORT------------------------------------------------
 js_transport = open_json("transport_routes.json")
 
-dic_transport_routs = {}
+lst_transport_routs = []
+lst_transport_routs_less = []
 
 for item in js_transport:
-    dic_transport_routs[f"{item["via"]}/{item["name"]}/{item["vehiculo"]}"] = item["costo"]
+    if item["vehiculo"] != "auto":
+        lst_transport_routs_less.append(item["costo"])
+    lst_transport_routs.append(item["costo"])
 
-v_transport = percent_lst(list(dic_transport_routs.values()))
+
+v_transport = percent_lst(lst_transport_routs)
+v_transport_less = percent_lst(lst_transport_routs_less)
+
+#------------------------------------------DATOS-------------------------------------------------------
+dic_shool_days = {
+    "Ene": 20, "Feb": 20, "Mar": 21, "Abr": 17,
+    "May": 22, "Jun": 20, "Jul": 0,  "Ago": 0,
+    "Sep": 17, "Oct": 21, "Nov": 20, "Dic": 15
+}
+
+lst_monthly_food = [d * v_meal for d in dic_shool_days.values()]
+lst_monthly_transport = [d * v_transport for d in dic_shool_days.values()]
+lst_monthly_total = [m + t for m, t in zip(lst_monthly_food, lst_monthly_transport)]
+v_anual_total = sum_lst(lst_monthly_total)
+
+lst_monthly_food_less = [d * v_meal_less for d in dic_shool_days.values()]
+lst_monthly_transport_less = [d * v_transport_less for d in dic_shool_days.values()]
+lst_monthly_total_less = [m + t for m, t in zip(lst_monthly_food_less, lst_monthly_transport_less)]
+v_anual_total_less = sum_lst(lst_monthly_total_less)
+
+v_anual_transport_less = sum_lst(lst_monthly_transport_less)
+#--------------------------------------------SALARY----------------------------------------------------
+js_salary = open_json("salary.json")
 
 #------------------------------------------GRAPHICS-------------------------------------------------
-def localizacion():
+def localization():
     # ---------- 1. EXTRACCIÓN DE COORDENADAS ----------
     nombres, latitudes, longitudes = zip(*[(nombre, lat, lon)
                                         for nombre, (lat, lon) in dic_mypimes_cordenades.items()])
@@ -170,74 +197,69 @@ def localizacion():
 
     fig.show()
 
-def productos():
-    categoria, valor = zip(*[(key, value) for key, value in dic_products_percent.items()])
 
+def products_percent():
+    productos = list(dic_products_percent.keys())      # keys en orden
+    precios   = list(dic_products_percent.values())    # values en orden
+
+    # primeros 5 -> líquidos, resto -> sólidos
+    n = len(productos)
+    liquidos = precios[:5] + [0]*(n-5)   # mantener longitud
+    solidos  = [0]*5 + precios[5:]       # 0 en líquidos, valor en sólidos
+
+    # ---------- gráfico ----------
     plt.figure(figsize=(8, 4))
-    plt.plot(categoria, valor, color="#365C9C", marker='o', linestyle='-')
+    plt.stackplot(productos, liquidos, solidos,
+                labels=['Líquidos', 'Sólidos'],
+                colors=['#f58518', '#4c78a8'],
+                baseline='zero')
 
-    plt.xlabel("productos")
-    plt.ylabel("precio")
-    plt.title("precios de productos")
-    plt.ylim(150, 500)          # Y desde 50 hasta 500
+    plt.xlabel("Producto")
+    plt.ylabel("Precio promedio (CUP)")
+    plt.title("Precio promedio por categoría")
+    plt.legend()
     plt.tight_layout()
     plt.show()
 
-def transporte():
+
+def transport_table():
     tabla = "| via | nombre | vehículo | costo (CUP) |\n"
     tabla += "|-----|--------|----------|------------|\n"
 
     for item in js_transport:
         tabla += f"| {item['via']} | {item.get('name', '')} | {item['vehiculo']} | {item['costo']:.2f} |\n"
 
-    Markdown(tabla)
+    display(Markdown(tabla))
 
-def gasto_mensual():
-    meses_dias = {
-        "Ene": 20, "Feb": 20, "Mar": 21, "Abr": 17,
-        "May": 22, "Jun": 20, "Jul": 0,  "Ago": 0,
-        "Sep": 17, "Oct": 21, "Nov": 20, "Dic": 15
-    }
 
-    v = v_meal + v_transport
+def monthly_expense():
+    plt.figure(figsize=(16, 10))
+    plt.bar(dic_shool_days.keys(), lst_monthly_food,      label='Meal',      color='steelblue')
+    plt.bar(dic_shool_days.keys(), lst_monthly_transport, bottom=lst_monthly_food, label='Transport', color='orange')
 
-    meses = list(meses_dias.keys())
-    dias  = list(meses_dias.values())
-    # gasto mensual = días * v
-    gasto = [d * v for d in dias]
-
-    # ---------- gráfico ----------
-    plt.figure(figsize=(10, 5))
-    barras = plt.bar(meses, dias, color="steelblue")
-
-    # texto con gasto encima
-    for barra, g in zip(barras, gasto):
-        plt.text(barra.get_x() + barra.get_width()/2,
-                barra.get_height() + 0.3,
-                str(g),
-                ha="center", va="bottom")
+    # etiqueta del total encima
+    for i, t in enumerate(lst_monthly_total):
+        plt.text(i, t + 0.3, f"{t:.1f}", ha='center', va='bottom')
 
     plt.xlabel("Meses")
-    plt.ylabel("Días lectivos")
-    plt.title("Gasto universitario")
-    plt.ylim(0, max(dias) + 5)
+    plt.ylabel("Importe (CUP)")
+    plt.title("Gasto universitario mensual")
+    plt.legend()
     plt.tight_layout()
     plt.show()
 
-def trabajos():
 
-    # ---------- nombres cortos (opcional) ----------
-    sectores = [textwrap.fill(k, 30) for k in js_salary.keys()]
-    salarios = list(js_salary.values())
-    colores = ['crimson' if s < mi_valor else 'lightblue' for s in salarios]
+def works():
+    sectores = [textwrap.fill(k, 25) for k in js_salary.keys()]
+    salarios = [s * 12 for s in js_salary.values()]
+    colores  = ['crimson' if s < v_anual_total else 'lightblue' for s in salarios]
 
-    # ---------- figura más ALTA ----------
-    plt.figure(figsize=(16, 14))          # 14 pulgadas de alto
+    # ---------- figura MUY alargada ----------
+    plt.figure(figsize=(16, 14))          # 20 pulgadas de alto
     plt.barh(range(len(sectores)), salarios, color=colores)
-    plt.axvline(mi_valor, color='black', linestyle='--', linewidth=2,
-                label=f'Mi valor fijo: {mi_valor:,.0f}')
+    plt.axvline(v_anual_total, color='k', ls='--', lw=2, label=f'Mi valor: {v_anual_total:,.0f}')
 
-    plt.yticks(range(len(sectores)), sectores, fontsize=10)
+    plt.yticks(range(len(sectores)), sectores, fontsize=12)
     plt.xlabel('Salario medio (CUP)')
     plt.title('¿Dónde está mi valor?')
     plt.legend()

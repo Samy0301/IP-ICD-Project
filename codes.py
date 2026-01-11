@@ -3,6 +3,8 @@ import os
 import numpy as np
 import plotly.graph_objects as go
 import matplotlib.pyplot as plt
+from IPython.display import Markdown 
+import textwrap
 #--------------------------------------------METHODS---------------------------------------------------
 #--------Do The Percent Whit A List--------
 def open_json(js: str) -> list[dict]:
@@ -24,14 +26,6 @@ def media_lst(lst: list[float]) -> float:
 #--------------------------------------------SALARY----------------------------------------------------
 js_salary = open_json("salary.json")
 
-#--------Salary List------------
-lst_salary = []
-
-for value in js_salary.values():
-    lst_salary.append(value)
-
-#--------Salary Percent Variable----------
-v_salary_percent = percent_lst(lst_salary)
 #-------------------------------------------MYPIMES---------------------------------------------------
 js_mypimes = open_json("mypimes.json")
 
@@ -80,8 +74,10 @@ dic_transport_routs = {}
 for item in js_transport:
     dic_transport_routs[f"{item["via"]}/{item["name"]}/{item["vehiculo"]}"] = item["costo"]
 
+v_transport = percent_lst(list(dic_transport_routs.values()))
+
 #------------------------------------------GRAPHICS-------------------------------------------------
-def g1():
+def localizacion():
     # ---------- 1. EXTRACCIÓN DE COORDENADAS ----------
     nombres, latitudes, longitudes = zip(*[(nombre, lat, lon)
                                         for nombre, (lat, lon) in dic_mypimes_cordenades.items()])
@@ -174,7 +170,7 @@ def g1():
 
     fig.show()
 
-def g2():
+def productos():
     categoria, valor = zip(*[(key, value) for key, value in dic_products_percent.items()])
 
     plt.figure(figsize=(8, 4))
@@ -184,6 +180,67 @@ def g2():
     plt.ylabel("precio")
     plt.title("precios de productos")
     plt.ylim(150, 500)          # Y desde 50 hasta 500
+    plt.tight_layout()
+    plt.show()
+
+def transporte():
+    tabla = "| via | nombre | vehículo | costo (CUP) |\n"
+    tabla += "|-----|--------|----------|------------|\n"
+
+    for item in js_transport:
+        tabla += f"| {item['via']} | {item.get('name', '')} | {item['vehiculo']} | {item['costo']:.2f} |\n"
+
+    Markdown(tabla)
+
+def gasto_mensual():
+    meses_dias = {
+        "Ene": 20, "Feb": 20, "Mar": 21, "Abr": 17,
+        "May": 22, "Jun": 20, "Jul": 0,  "Ago": 0,
+        "Sep": 17, "Oct": 21, "Nov": 20, "Dic": 15
+    }
+
+    v = v_meal + v_transport
+
+    meses = list(meses_dias.keys())
+    dias  = list(meses_dias.values())
+    # gasto mensual = días * v
+    gasto = [d * v for d in dias]
+
+    # ---------- gráfico ----------
+    plt.figure(figsize=(10, 5))
+    barras = plt.bar(meses, dias, color="steelblue")
+
+    # texto con gasto encima
+    for barra, g in zip(barras, gasto):
+        plt.text(barra.get_x() + barra.get_width()/2,
+                barra.get_height() + 0.3,
+                str(g),
+                ha="center", va="bottom")
+
+    plt.xlabel("Meses")
+    plt.ylabel("Días lectivos")
+    plt.title("Gasto universitario")
+    plt.ylim(0, max(dias) + 5)
+    plt.tight_layout()
+    plt.show()
+
+def trabajos():
+
+    # ---------- nombres cortos (opcional) ----------
+    sectores = [textwrap.fill(k, 30) for k in js_salary.keys()]
+    salarios = list(js_salary.values())
+    colores = ['crimson' if s < mi_valor else 'lightblue' for s in salarios]
+
+    # ---------- figura más ALTA ----------
+    plt.figure(figsize=(16, 14))          # 14 pulgadas de alto
+    plt.barh(range(len(sectores)), salarios, color=colores)
+    plt.axvline(mi_valor, color='black', linestyle='--', linewidth=2,
+                label=f'Mi valor fijo: {mi_valor:,.0f}')
+
+    plt.yticks(range(len(sectores)), sectores, fontsize=10)
+    plt.xlabel('Salario medio (CUP)')
+    plt.title('¿Dónde está mi valor?')
+    plt.legend()
     plt.tight_layout()
     plt.show()
 #---------------------------------------------------------------------------------------------------------------

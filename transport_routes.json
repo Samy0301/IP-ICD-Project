@@ -1,31 +1,40 @@
 [
     {
-        "via" : "transporte publico",
-        "vehiculo" : "guagua",
-        "costo" : 0
-    },
-
-    {
-        "via" : "transporte publico",
+        "via": "estatal",
+        "name" : "transporte publico",
         "vehiculo" : "rutero",
-        "costo" : 0
+        "costo" : 200
     },
 
     {
-        "via" : "servicio de taxis",
-        "found" : "aplicacion",
+        "via" : "aplicacion de taxis",
         "name" : "La Nave",
         "link" : "",
         "vehiculo" : "auto",
-        "costo" : 0
+        "costo" : 2598.21
     },
 
     {
-        "via" : "servidio de taxis",
-        "found" : "grupo de Wathsapp",
-        "name" : "",
+        "via" : "aplicacion de taxis",
+        "name" : "La Nave",
         "link" : "",
-        "vehiculo" : "",
-        "costo" : ""
+        "vehiculo" : "moto",
+        "costo" : 1205.74
+    },
+
+    {
+        "via" : "grupo de Wathsapp",
+        "name" : "Taxi a su gusto",
+        "link" : "",
+        "vehiculo" : "auto",
+        "costo" : 2300
+    },
+
+    {
+        "via" : "grupo de Wathsapp",
+        "name" : "Smile taxi",
+        "link" : "",
+        "vehiculo" : "auto",
+        "costo" : 3000
     }
 ]

@@ -587,5 +587,227 @@
             "cerveza": 350,
             "refresco limon": 350
         }
+    },
+
+    { 
+        "name": "El Rojo",
+        "municipio" : "Plaza de la Revolucion ",
+        "latitude" : 23.143117,
+        "length" : -82.384743,
+        "evidence" : "pictures/ELrojo",
+        "products": {
+            "energizante": 270,
+            "cerveza": 330,
+            "jugo": 200,
+            "galleta": 180
+        }
+    },
+
+    { 
+        "name": "D'Cotti",
+        "municipio" : "Plaza de la Revolucion ",
+        "latitude" : 23.142923,
+        "length" : -82.386796,
+        "evidence" : "pictures/Dcotti",
+        "products": {
+            "energizante": 280,
+            "cerveza": 370,
+            "refresco limon": 320,
+            "coca cola": 340
+        }
+    },
+
+    { 
+        "name": "Bodegon de Luna",
+        "municipio" : "Plaza de la Revolucion ",
+        "latitude" : 23.142904,
+        "length" : -82.386827,
+        "evidence" : "pictures/Bodegonluna",
+        "products": {
+            "jugo": 260,
+            "cerveza": 420,
+            "refresco limon": 600,
+            "coca cola": 550
+        }
+    },
+
+    { 
+        "name": "L y 17",
+        "municipio" : "Plaza de la Revolucion ",
+        "latitude" : 23.141791,
+        "length" : -82.385292,
+        "evidence" : "pictures/Ly17",
+        "products": {
+            "jugo": 220,
+            "cerveza": 350,
+            "refresco limon": 230,
+            "energizante": 300
+        }
+    },
+
+    { 
+        "name": "Francis Cafe",
+        "municipio" : "Plaza de la Revolucion ",
+        "latitude" : 23.141749,
+        "length" : -82.385257,
+        "evidence" : "pictures/Franciscafe",
+        "products": {
+            "cerveza": 390,
+            "refresco limon": 270,
+            "galleta": 200
+        }
+    },
+
+    { 
+        "name": "La Via Corta",
+        "municipio" : "Plaza de la Revolucion ",
+        "latitude" : 23.141117,
+        "length" : -82.384803,
+        "evidence" : "pictures/Viacorta",
+        "products": {
+            "energizante": 270,
+            "cerveza": 270,
+            "galleta": 200
+        }
+    },
+
+    { 
+        "name": "Xalxa",
+        "municipio" : "Plaza de la Revolucion ",
+        "latitude" : 23.142993,
+        "length" : -82.386687,
+        "evidence" : "pictures/Xalxa",
+        "products": {
+            "cerveza": 560,
+            "refresco limon": 440,
+            "coca cola": 590,
+            "energizante": 650
+        }
+    },
+
+    { 
+        "name": "Rays Pizza",
+        "municipio" : "Plaza de la Revolucion ",
+        "latitude" : 23.142374,
+        "length" : -82.390998,
+        "evidence" : "pictures/Rayspizza",
+        "products": {
+            "jugo": 200,
+            "cerveza": 250,
+            "refresco limon": 250,
+            "energizante": 260,
+            "pizza": 250
+        }
+    },
+
+    { 
+        "name": "La Familia",
+        "municipio" : "Plaza de la Revolucion ",
+        "latitude" : 23.142494,
+        "length" : -82.391757,
+        "evidence" : "pictures/Familia",
+        "products": {
+            "jugo": 200,
+            "cerveza": 260,
+            "refresco limon": 280,
+            "energizante": 300,
+            "pizza": 250
+        }
+    },
+
+    { 
+        "name": "Doña Ileana",
+        "municipio" : "Plaza de la Revolucion ",
+        "latitude" : 23.142652,
+        "length" : -82.391751,
+        "evidence" : "pictures/Doñaileana",
+        "products": {
+            "jugo": 200,
+            "cerveza": 250,
+            "refresco limon": 250,
+            "energizante": 280,
+            "pan": 500
+        }
+    },
+
+    { 
+        "name": "La Peseta",
+        "municipio" : "Plaza de la Revolucion ",
+        "latitude" : 23.140916,
+        "length" : -82.393462,
+        "evidence" : "pictures/Lapeseta",
+        "products": {
+            "cerveza": 240,
+            "energizante": 250
+        }
+    },
+
+    { 
+        "name": "Linea y A",
+        "municipio" : "Plaza de la Revolucion ",
+        "latitude" : 23.138328,
+        "length" : -82.398411,
+        "evidence" : "pictures/Lineaya",
+        "products": {
+            "jugo": 190,
+            "cerveza": 300,
+            "refresco limon": 250,
+            "energizante": 270,
+            "pizza": 250
+        }
+    },
+
+    { 
+        "name": "Linea Meya",
+        "municipio" : "Plaza de la Revolucion ",
+        "latitude" : 23.138434,
+        "length" : -82.398096,
+        "evidence" : "pictures/Lineameya",
+        "products": {
+            "jugo": 190,
+            "cerveza": 260,
+            "refresco limon": 250,
+            "energizante": 270,
+            "pan": 240
+        }
+    },
+
+    { 
+        "name": "Jugera",
+        "municipio" : "Plaza de la Revolucion ",
+        "latitude" : 23.138334,
+        "length" : -82.404434,
+        "evidence" : "pictures/Jugera",
+        "products": {
+            "jugo": 150,
+            "pan": 350,
+            "pizza": 250
+        }
+    },
+
+    { 
+        "name": "Twin Pizza",
+        "municipio" : "Plaza de la Revolucion ",
+        "latitude" : 23.135290,
+        "length" : -82.402540,
+        "evidence" : "pictures/Twinpizza",
+        "products": {
+            "pizza": 280,
+            "cerveza": 280
+        }
+    },
+
+    { 
+        "name": "Mia",
+        "municipio" : "Plaza de la Revolucion ",
+        "latitude" : 23.133001,
+        "length" : -82.400430,
+        "evidence" : "pictures/Mia",
+        "products": {
+            "energizante": 300,
+            "cerveza": 230,
+            "galleta": 350,
+            "pizza": 250
+        }
     }
 ]

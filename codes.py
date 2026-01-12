@@ -105,16 +105,14 @@ js_salary = open_json("salary.json")
 
 #------------------------------------------GRAPHICS-------------------------------------------------
 def localization():
-    # ---------- 1. EXTRACCIÓN DE COORDENADAS ----------
+
     nombres, latitudes, longitudes = zip(*[(nombre, lat, lon)
                                         for nombre, (lat, lon) in dic_mypimes_cordenades.items()])
     latitudes  = np.array(latitudes)
     longitudes = np.array(longitudes)
 
-    # ---------- 2. PUNTO DE REFERENCIA (UNIVERSIDAD) ----------
     lat_centro, lon_centro = 23.136326, -82.382190
 
-    # ---------- 3. FUNCIÓN HAVERSINE EN METROS ----------
     def haversine_metros(lat1, lon1, lat2, lon2):
         R = 6371000
         phi1, phi2 = np.radians(lat1), np.radians(lat2)
@@ -126,7 +124,6 @@ def localization():
     distancia_m = np.array([haversine_metros(lat_centro, lon_centro, lat, lon)
                             for lat, lon in zip(latitudes, longitudes)])
 
-    # ---------- 4. DEFINICIÓN DE ZONAS CONCÉNTRICAS ----------
     zonas_m = [(0, 500), (500, 1000), (1000, 1500), (1500, 2000), (2000, 2500)]
 
     colores_zona = {
@@ -137,12 +134,10 @@ def localization():
         2500: "rgba(240, 50, 50, 0.8)",
     }
 
-    # ---------- 5. INICIALIZACIÓN DE LA FIGURA ----------
     fig = go.Figure()
 
-    # ---------- 6. CÍRCULOS (SEMICÍRCULO ESTE) Y PUNTOS DE HOVER ----------
-    angulos_circulo = np.linspace(-np.pi/2, np.pi/2, 200)   # solo derecha
-    desplazamientos_x = [300, 900, 1500, 2100, 2700]        # 5 zonas
+    angulos_circulo = np.linspace(-np.pi/2, np.pi/2, 200)   
+    desplazamientos_x = [300, 900, 1500, 2100, 2700]        
 
     for i, (radio_min, radio_max) in enumerate(reversed(zonas_m)):
         en_zona = np.where((distancia_m >= radio_min) & (distancia_m < radio_max))[0]
@@ -153,7 +148,6 @@ def localization():
 
         color_base = colores_zona[radio_max]
 
-        # semicírculo Este
         fig.add_trace(go.Scatter(
             x=radio_max * np.cos(angulos_circulo),
             y=radio_max * np.sin(angulos_circulo),
@@ -162,7 +156,6 @@ def localization():
             showlegend=False
         ))
 
-        # punto de referencia con hover
         fig.add_trace(go.Scatter(
             x=[desplazamientos_x[4 - i]],
             y=[2700],
@@ -175,7 +168,6 @@ def localization():
             showlegend=False
         ))
 
-    # ---------- 7. MARCADOR CENTRAL (UNIVERSIDAD) ----------
     fig.add_trace(go.Scatter(
         x=[0],
         y=[0],
@@ -187,7 +179,6 @@ def localization():
         showlegend=False
     ))
 
-    # ---------- 8. CONFIGURACIÓN FINAL ----------
     fig.update_layout(
         title="Zonas de cercanía respecto a la UH (0–2500 m) – lado Este",
         xaxis=dict(title="Distancia Este (m)", range=[0, 2900]),
@@ -199,26 +190,25 @@ def localization():
 
 
 def products_percent():
-    productos = list(dic_products_percent.keys())      # keys en orden
-    precios   = list(dic_products_percent.values())    # values en orden
+    productos = list(dic_products_percent.keys())     
+    precios   = list(dic_products_percent.values())   
 
-    # primeros 5 -> líquidos, resto -> sólidos
     n = len(productos)
-    liquidos = precios[:5] + [0]*(n-5)   # mantener longitud
-    solidos  = [0]*5 + precios[5:]       # 0 en líquidos, valor en sólidos
+    liquidos = precios[:5] + [0]*(n-5)   
+    solidos  = [0]*5 + precios[5:]       
 
-    # ---------- gráfico ----------
     plt.figure(figsize=(8, 4))
     plt.stackplot(productos, liquidos, solidos,
                 labels=['Bebidas', 'Alimentos Preparados'],
-                colors=['#4c78a8',      # rojo bebidas
-                        '#7d6bb6'],     # azul alimentos
+                colors=['#4c78a8',     
+                        '#7d6bb6'],     
                 baseline='zero')
 
     plt.xlabel("Productos")
     plt.ylabel("Precio promedio (CUP)")
     plt.title("Precio promedio por categoría")
     plt.legend()
+    plt.xticks(rotation=45, ha='right')
     plt.tight_layout()
     plt.show()
 
@@ -237,16 +227,14 @@ def monthly_expense():
     plt.figure(figsize=(16, 10))
     meses = list(dic_shool_days.keys())
 
-    # apilado con la gama de colores anterior
     plt.bar(meses, lst_monthly_food,
             label='Alimentación',
-            color='#c37b9d')          # azul zona cercana
+            color='#c37b9d')        
     plt.bar(meses, lst_monthly_transport,
             bottom=lst_monthly_food,
             label='Transporte',
-            color='#dc465a')          # rojo zona lejana
+            color='#dc465a')          
 
-    # total encima
     for i, t in enumerate(lst_monthly_total):
         plt.text(i, t + 0.3, f"{t:.1f}", ha='center', va='bottom')
 
@@ -279,7 +267,7 @@ def work2():
 
     plt.figure(figsize=(16, 14))
     plt.barh(range(len(sectores)), salarios, label='Salario anual',
-            color='#f03232')  # rosa intermedio
+            color='#f03232')  
 
     # líneas con la gama anterior
     plt.axvline(v_anual_transport_less,

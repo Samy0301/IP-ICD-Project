@@ -294,5 +294,60 @@
           "La Via Corta": 200,
           "Mia": 350
       }
+    }, 
+
+    {
+      "product": "pizza con jamon",
+      "clasification": "solido",
+      "prescindible":"si",
+      "price": {
+          "Titi Cafe": 850,
+          "La Fortuna": 350,
+          "El Duende": 380,
+          "Intermedio": 800,
+          "Sofia": 1100,
+          "Vita Nova": 350,
+          "La Loreta": 350,
+          "21 y K": 750,
+          "La Tres Torres": 520,
+          "29 y F": 260,
+          "Mya Cafe": 300,
+          "Di'il Cafe": 450,
+          "Fogon": 1100,
+          "El Carnicero": 450,
+          "Rays Pizza": 350,
+          "La Familia": 350,
+          "Jugera": 350
+      }
+    },
+
+    {
+      "product": "hamburguesa con queso",
+      "clasification": "solido",
+      "prescindible":"si",
+      "price": {
+          "Titi Cafe": 560,
+          "La Fortuna": 600,
+          "El Duende": 650,
+          "Intermedio": 600,
+          "Sofia": 1200,
+          "La Loreta": 300,
+          "21 y K": 440,
+          "La Tres Torres": 650,
+          "Luna de Cristal": 490,
+          "Gamelys": 350,
+          "29 y F": 540,
+          "Dos Amigos": 130,
+          "Mya Cafe": 200,
+          "Babella": 920,
+          "Di'il Cafe": 520,
+          "Cafe Ramos": 600,
+          "Helpink": 650,
+          "Fogon": 750,
+          "El Carnicero": 400,
+          "Doña Ileana": 500,
+          "Linea Meya": 750,
+          "Jugera": 450
+      }
     }
 ]

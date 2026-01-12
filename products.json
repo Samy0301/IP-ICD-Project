@@ -131,7 +131,7 @@
     },
 
     {
-      "product": "jugo",
+      "product": "jugo envasado",
       "clasification": "liquido",
       "prescindible":"no",
       "price": {
@@ -232,7 +232,7 @@
     },
 
     {
-      "product": "pan",
+      "product": "hamburguesa",
       "clasification": "solido",
       "prescindible":"si",
       "price": {
@@ -265,7 +265,7 @@
     },
 
     {
-      "product": "galleta",
+      "product": "galletas",
       "clasification": "solido",
       "prescindible":"no",
       "price": {

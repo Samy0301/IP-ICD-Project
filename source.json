@@ -9,17 +9,5 @@
         },
         "page_link" : "",
         "find_local_document" : "docs_used/indicadores-seleccionados-octubre-2025_0"
-    },
-
-    "transport" : {
-        "application" : {
-            "name" : "La Nave",
-            "link" : ""
-        },
-
-        "Wathsapp_group" : {
-            "name" : "",
-            "link" : " "
-        }
     }
 }

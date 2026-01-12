@@ -3,7 +3,7 @@ import os
 import numpy as np
 import plotly.graph_objects as go
 import matplotlib.pyplot as plt
-from IPython.display import Markdown 
+from IPython.display import display, Markdown 
 import textwrap
 #--------------------------------------------METHODS---------------------------------------------------
 def open_json(js: str) -> list[dict]:
@@ -85,8 +85,8 @@ v_transport_less = percent_lst(lst_transport_routs_less)
 #------------------------------------------DATOS-------------------------------------------------------
 dic_shool_days = {
     "Ene": 20, "Feb": 20, "Mar": 21, "Abr": 17,
-    "May": 22, "Jun": 20, "Jul": 0,  "Ago": 0,
-    "Sep": 17, "Oct": 21, "Nov": 20, "Dic": 15
+    "May": 22, "Jun": 20,"Sep": 17, "Oct": 21,
+    "Nov": 20, "Dic": 15
 }
 
 lst_monthly_food = [d * v_meal for d in dic_shool_days.values()]
@@ -210,11 +210,12 @@ def products_percent():
     # ---------- gráfico ----------
     plt.figure(figsize=(8, 4))
     plt.stackplot(productos, liquidos, solidos,
-                labels=['Líquidos', 'Sólidos'],
-                colors=['#f58518', '#4c78a8'],
+                labels=['Bebidas', 'Alimentos Preparados'],
+                colors=['#4c78a8',      # rojo bebidas
+                        '#7d6bb6'],     # azul alimentos
                 baseline='zero')
 
-    plt.xlabel("Producto")
+    plt.xlabel("Productos")
     plt.ylabel("Precio promedio (CUP)")
     plt.title("Precio promedio por categoría")
     plt.legend()
@@ -234,10 +235,18 @@ def transport_table():
 
 def monthly_expense():
     plt.figure(figsize=(16, 10))
-    plt.bar(dic_shool_days.keys(), lst_monthly_food,      label='Meal',      color='steelblue')
-    plt.bar(dic_shool_days.keys(), lst_monthly_transport, bottom=lst_monthly_food, label='Transport', color='orange')
+    meses = list(dic_shool_days.keys())
 
-    # etiqueta del total encima
+    # apilado con la gama de colores anterior
+    plt.bar(meses, lst_monthly_food,
+            label='Alimentación',
+            color='#c37b9d')          # azul zona cercana
+    plt.bar(meses, lst_monthly_transport,
+            bottom=lst_monthly_food,
+            label='Transporte',
+            color='#dc465a')          # rojo zona lejana
+
+    # total encima
     for i, t in enumerate(lst_monthly_total):
         plt.text(i, t + 0.3, f"{t:.1f}", ha='center', va='bottom')
 
@@ -248,51 +257,47 @@ def monthly_expense():
     plt.tight_layout()
     plt.show()
 
-
 def works():
     sectores = [textwrap.fill(k, 25) for k in js_salary.keys()]
     salarios = [s * 12 for s in js_salary.values()]
-    colores  = ['crimson' if s < v_anual_total else 'lightblue' for s in salarios]
 
-    # ---------- figura MUY alargada ----------
-    plt.figure(figsize=(16, 14))          # 20 pulgadas de alto
-    plt.barh(range(len(sectores)), salarios, color=colores)
-    plt.axvline(v_anual_total, color='k', ls='--', lw=2, label=f'Mi valor: {v_anual_total:,.0f}')
+    plt.figure(figsize=(16, 14))
+    plt.barh(range(len(sectores)), salarios, color='#f03232')
+    plt.axvline(v_anual_total, color='k', ls='--', lw=2,
+                label=f'Mi valor: {v_anual_total:,.0f}')
 
     plt.yticks(range(len(sectores)), sectores, fontsize=12)
-    plt.xlabel('Salario medio (CUP)')
-    plt.title('¿Dónde está mi valor?')
+    plt.xlabel('Salario anual (CUP)')
+    plt.title('Gasto inuversitario anual')
     plt.legend()
     plt.tight_layout()
     plt.show()
-#---------------------------------------------------------------------------------------------------------------
 
-def genera_catalogo_unificado():
-    """
-    Lee 'mypimes.json' (mismo directorio) y crea 'productos_unificados.json'
-    con la estructura solicitada sin recibir ni devolver parámetros.
-    """
-    # 1. Cargar datos
-    with open("mypimes.json", "r", encoding="utf-8") as f:
-        js_mypimes = json.load(f)
+def work2():
+    sectores = [textwrap.fill(k, 25) for k in js_salary.keys()]
+    salarios = [s * 12 for s in js_salary.values()]
 
-    # 2. Construir índice
-    product_index = {}
-    for tienda in js_mypimes:
-        nombre = tienda["name"]
-        for prod, precio in tienda["products"].items():
-            if prod not in product_index:
-                product_index[prod] = {"clasificacion": "", "precio": {}}
-            product_index[prod]["precio"][nombre] = precio
+    plt.figure(figsize=(16, 14))
+    plt.barh(range(len(sectores)), salarios, label='Salario anual',
+            color='#f03232')  # rosa intermedio
 
-    # 3. Convertir a lista de diccionarios
-    catalogo = [
-        {"producto": k, "clasificacion": v["clasificacion"], "precio": v["precio"]}
-        for k, v in product_index.items()
-    ]
+    # líneas con la gama anterior
+    plt.axvline(v_anual_transport_less,
+                color='#4c78a8', ls='--', lw=2,
+                label=f'Gasto de transportacion reducido: {v_anual_transport_less:,.0f}')
+    plt.axvline(v_anual_total_less,
+                color='#7d6bb6', ls='--', lw=2,
+                label=f'Gasto anual reducido: {v_anual_total_less:,.0f}')
+    plt.axvline(v_anual_total,
+                color='#c37b9d', ls='--', lw=2,
+                label=f'Gasto anual total: {v_anual_total:,.0f}')
 
-    # 4. Guardar resultado
-    with open("productos_unificados.json", "w", encoding="utf-8") as f_out:
-        json.dump(catalogo, f_out, ensure_ascii=False, indent=2)
+    plt.yticks(range(len(sectores)), sectores, fontsize=12)
+    plt.xlabel('Salario anual (CUP)')
+    plt.title('Comparacion de reduccion de gastos universitarios')
+    plt.legend()
+    plt.tight_layout()
+    plt.show()
+
 
 

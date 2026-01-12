@@ -2,6 +2,7 @@
     {
         "via": "estatal",
         "name" : "transporte publico",
+        "evidence": "pictures/transporte/estatal",
         "vehiculo" : "rutero",
         "costo" : 200
     },
@@ -9,7 +10,8 @@
     {
         "via" : "aplicacion de taxis",
         "name" : "La Nave",
-        "link" : "",
+        "evidence": "pictures/transporte/nave",
+        "link" : "Play Store/La Nave",
         "vehiculo" : "auto",
         "costo" : 2598.21
     },
@@ -17,7 +19,8 @@
     {
         "via" : "aplicacion de taxis",
         "name" : "La Nave",
-        "link" : "",
+        "evidence": "pictures/transporte/nave",
+        "link" : "Play Store/La Nave",
         "vehiculo" : "moto",
         "costo" : 1205.74
     },
@@ -25,7 +28,8 @@
     {
         "via" : "grupo de Wathsapp",
         "name" : "Taxi a su gusto",
-        "link" : "",
+        "evidence": "pictures/transporte/taxi gusto",
+        "link" : "https://chat.whatsapp.com/CBsvrVys9xqEkjcQQrDONW",
         "vehiculo" : "auto",
         "costo" : 2300
     },
@@ -33,7 +37,8 @@
     {
         "via" : "grupo de Wathsapp",
         "name" : "Smile taxi",
-        "link" : "",
+        "evidence": "pictures/transporte/smile taxi",
+        "link" : "https://chat.whatsapp.com/BWdaYRpUV7u12s9Y3XTDOO",
         "vehiculo" : "auto",
         "costo" : 3000
     }

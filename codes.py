@@ -11,7 +11,7 @@ def open_json(js: str) -> list[dict]:
     with open(route, "r", encoding = "utf-8") as f:
         return json.load(f)
 
-def percent_lst(lst: list[float]) -> float:
+def promedio(lst: list[float]) -> float:
     if len(lst) > 0:
         v_sum = 0
         for x in lst:
@@ -52,7 +52,7 @@ for product in js_productos:
         dic_products_percent[product["product"]].append(x)
 
 for key, value in dic_products_percent.items():
-    dic_products_percent[key] = percent_lst(value)
+    dic_products_percent[key] = promedio(value)
 
 for dic in js_productos:
     if dic["clasification"] == "solido":
@@ -64,8 +64,8 @@ for dic in js_productos:
             lst_liquids_less.append(dic_products_percent[dic["product"]])
         lst_liquids.append(dic_products_percent[dic["product"]]) 
 
-v_meal = percent_lst(lst_liquids) + percent_lst(lst_solids)
-v_meal_less = percent_lst(lst_liquids_less) + percent_lst(lst_solind_less)
+v_meal = promedio(lst_liquids) + promedio(lst_solids)
+v_meal_less = promedio(lst_liquids_less) + promedio(lst_solind_less)
 print(dic_products_percent.keys())
 #------------------------------------------TRANSPORT------------------------------------------------
 js_transport = open_json("transport_routes.json")
@@ -79,8 +79,8 @@ for item in js_transport:
     lst_transport_routs.append(item["costo"])
 
 
-v_transport = percent_lst(lst_transport_routs)
-v_transport_less = percent_lst(lst_transport_routs_less)
+v_transport = promedio(lst_transport_routs)
+v_transport_less = promedio(lst_transport_routs_less)
 
 #------------------------------------------DATOS-------------------------------------------------------
 dic_shool_days = {
